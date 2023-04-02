@@ -1,2 +1,2 @@
-def matsimatsi(A, B):
+def matsi_matsi(A, B):
     return A - B;

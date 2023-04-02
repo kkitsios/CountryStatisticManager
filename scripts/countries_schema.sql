@@ -1,5 +1,5 @@
 CREATE TABLE countries (
-  ISO_Code INTEGER PRIMARY KEY,
+  ISO_Code INT PRIMARY KEY,
   ISO VARCHAR(3),
   ISO3 VARCHAR(3),
   FIPS VARCHAR(2),
@@ -21,6 +21,6 @@ CREATE TABLE countries (
   Small_Island_Developing_States VARCHAR(5),
   Land_Locked_Developing_Countries VARCHAR(5),
   Least_Developed_Countries VARCHAR(5),
-  Area_SqKm REAL,
-  Population INTEGER
-);  
+  Area_SqKm FLOAT,
+  Population INT
+);

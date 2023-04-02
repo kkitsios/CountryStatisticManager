@@ -5,8 +5,9 @@ countries_file = "../../countries.csv"
 income_by_country = "../../Income by Country.xlsx"
 
 def print_set_values(my_set):
-    my_list = ['Europe and Central Asia', 'Very high human development', 'Palestine; State of', 'Korea (Republic of)', 'Hong Kong; China (SAR)', 'East Asia and the Pacific', 'Timor-Leste', "Lao People's Democratic Republic", 'Medium human development', 'Small Island Developing States', 'Developing Countries', 'Arab States', 'Congo (Democratic Republic of the)', 'Sub-Saharan Africa',
-     "Least Developed Countries", "Organization for Economic Co-operation and Development", "None"]
+    my_list = ["Cabo Verde", "Viet Nam", "Eswatini (Kingdom of)", "Bolivia (Plurinational State of)","Congo",
+    "Latin America and the Caribbean", "Moldova (Republic of)", "Iran (Islamic Republic of)", "Brunei Darussalam",
+    "Syrian Arab Republic", "Russian Federation"]
 
     for value in my_set:
         if value not in my_list:print(value)

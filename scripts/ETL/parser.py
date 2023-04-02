@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 
 def load_csv(filename):
-    with open(filename, 'r', encoding="ISO-8859-1") as csvfile:
+    with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
         headers = next(reader, None)
         data = {}

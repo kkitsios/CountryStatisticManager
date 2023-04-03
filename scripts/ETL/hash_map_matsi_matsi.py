@@ -5,6 +5,12 @@ import matsimatsi
 countries_file = "../../countries.csv"
 income_by_country = "../../Income by Country.xlsx"
 
+matsi = {
+	"Hong Kong; China (SAR)": "Hong Kong",
+	"Congo (Democratic Republic of the)": "Congo",
+	"CÃ´te d'Ivoire": "Ivory Coast",
+	"Timor-Leste":"Timor Leste"
+	 }
 
 def hashmap_matsi_matsi():
 

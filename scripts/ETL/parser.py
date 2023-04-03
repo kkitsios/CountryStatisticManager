@@ -26,3 +26,9 @@ def load_xlsx_sheet(file_path, sheet_name):
 
     # Return the column values as a dictionary
     return column_values
+import openpyxl
+
+def get_xlsx_sheets(file_path):
+    wb = openpyxl.load_workbook(file_path)
+    sheet_names = wb.sheetnames
+    return sheet_names

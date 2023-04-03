@@ -21,7 +21,8 @@ try:
 except UnicodeDecodeError:
     pass  # ignore the error and continue with the code
 
-
-the_matsi = parser.load_xlsx_sheet(income_by_country, "GDP total")["Country"]
-print(len(the_other_matsi))
-print(print_set_values(matsimatsi.matsi_matsi(set(the_matsi), set(the_other_matsi))))
+for shit in parser.get_xlsx_sheets(income_by_country):
+    print(shit+"\n\n")
+    the_matsi = parser.load_xlsx_sheet(income_by_country, shit)["Country"]
+    print(shit, print_set_values(matsimatsi.matsi_matsi(set(the_matsi), set(the_other_matsi))))
+    print(25*"-*-")

@@ -48,6 +48,7 @@ ignoring_list = [
         'South Asia', 'Sub-Saharan Africa', 'Latin America and the Caribbean'
     ]
 
+
 def matsi_names(cname):
     if cname is not None and cname not in ignoring_list:
             if cname in matsi:
@@ -55,7 +56,7 @@ def matsi_names(cname):
             else:
                 return cname
 
-# years = [year for year in range(1990, 2019)]      
+
 def all_str(lst):
     for elem in lst:
         if elem is not None and not isinstance(elem, str):
@@ -93,19 +94,20 @@ for shit in parser.get_xlsx_sheets(income_by_country):
 
 
 #interpolation time!
-for shit in parser.get_xlsx_sheets(income_by_country):    
+for shit in parser.get_xlsx_sheets(income_by_country): 
+    content = parser.load_xlsx_sheet(income_by_country, shit)
+    headers = list(content.keys())   
     countries = shits[shit]
+    years = [y for y in headers if type(y) == int]
     for key, values in countries.items():
-        countries[key] = interpolation.interpolate_missing(values)
-        
-#expand 5ades
-# TODO
+        countries[key] = interpolation.interpolate_missing(values, years)
+
 
 #final momment
-
+years = [year for year in range(1990, 2019)]
 for shit in parser.get_xlsx_sheets(income_by_country):
     content = parser.load_xlsx_sheet(income_by_country, shit)
-    headers = list(content.keys())
+    headers = [list(content.keys())[0]] + years
     countries = shits[shit]
     out_string = "\t".join([str(x) for x in headers]) + "\n"
     for key, value in countries.items():

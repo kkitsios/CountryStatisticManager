@@ -4,7 +4,7 @@ import interpolation
 
 countries_file = "../../countries.csv"
 income_by_country = "../../Income by Country.xlsx"
-out = "./outputs/income_by_country"
+out_dir = "./outputs/income_by_country/"
 matsi = {
     "Lao People's Democratic Republic": "Laos",
     "Bolivia (Plurinational State of)": "Bolivia",
@@ -82,6 +82,7 @@ for shit in parser.get_xlsx_sheets(income_by_country):
 
 # clear all '..' records
 for shit in parser.get_xlsx_sheets(income_by_country):
+    del shits[shit][None]
     lst = []
     countries = shits[shit]
     for key, values in countries.items():
@@ -101,8 +102,18 @@ for shit in parser.get_xlsx_sheets(income_by_country):
 # TODO
 
 #final momment
-for shit in parser.get_xlsx_sheets(income_by_country):    
+
+for shit in parser.get_xlsx_sheets(income_by_country):
+    content = parser.load_xlsx_sheet(income_by_country, shit)
     headers = list(content.keys())
     countries = shits[shit]
-
-    for key, values in countries.items():pass
+    out_string = "\t".join([str(x) for x in headers]) + "\n"
+    for key, value in countries.items():
+        out_string = out_string + key + "\t"
+        for i, val in enumerate(value):
+            tb = "\t"
+            if i == len(value)-1: tb = "\n"
+            out_string = out_string + str(val) + tb
+    with open (out_dir+shit+".csv", "w") as f:
+        f.write(out_string)
+        f.close()

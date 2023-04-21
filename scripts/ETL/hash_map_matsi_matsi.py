@@ -1,9 +1,10 @@
 import parser
 import matsimatsi
+import interpolation
 
 countries_file = "../../countries.csv"
 income_by_country = "../../Income by Country.xlsx"
-out = "./outputs/"
+out = "./outputs/income_by_country"
 matsi = {
     "Lao People's Democratic Republic": "Laos",
     "Bolivia (Plurinational State of)": "Bolivia",
@@ -79,6 +80,7 @@ for shit in parser.get_xlsx_sheets(income_by_country):
                 vals.append(val)
     
 
+# clear all '..' records
 for shit in parser.get_xlsx_sheets(income_by_country):
     lst = []
     countries = shits[shit]
@@ -87,14 +89,20 @@ for shit in parser.get_xlsx_sheets(income_by_country):
             lst.append(key)
     for key in lst:
         del countries[key]
-    print(len(countries['South Sudan']))
-    break
-    
-# test1 = set(list(shits['Income Index'].keys()))
-# the_other_matsi = set(parser.load_csv(countries_file)["Display_Name"])
 
-# print(matsimatsi.matsi_matsi(test1, the_other_matsi))
 
-              
-                   
-    
+#interpolation time!
+for shit in parser.get_xlsx_sheets(income_by_country):    
+    countries = shits[shit]
+    for key, values in countries.items():
+        countries[key] = interpolation.interpolate_missing(values)
+        
+#expand 5ades
+# TODO
+
+#final momment
+for shit in parser.get_xlsx_sheets(income_by_country):    
+    headers = list(content.keys())
+    countries = shits[shit]
+
+    for key, values in countries.items():pass

@@ -1,8 +1,14 @@
 import csv
 import pandas as pd
+import openpyxl
+import chardet
 
 def load_csv(filename):
-    with open(filename, 'r') as csvfile:
+    # Detect the encoding of the file
+    with open(filename, 'rb') as f:
+        result = chardet.detect(f.read())
+
+    with open(filename, 'r', encoding=result['encoding']) as csvfile:
         reader = csv.reader(csvfile)
         headers = next(reader, None)
         data = {}
@@ -26,7 +32,7 @@ def load_xlsx_sheet(file_path, sheet_name):
 
     # Return the column values as a dictionary
     return column_values
-import openpyxl
+
 
 def get_xlsx_sheets(file_path):
     wb = openpyxl.load_workbook(file_path)

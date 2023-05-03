@@ -6,6 +6,7 @@ international_datasets = ["age_specific_fertility_rates.csv","birth_death_growth
 dir_international_datasets = "../../InternationalDatasetsSmall/"
 
 def print_set_values(my_set):
+    # my_list = []
     my_list = ["Cabo Verde", "Viet Nam", "Eswatini (Kingdom of)", "Bolivia (Plurinational State of)","Congo",
     "Latin America and the Caribbean", "Moldova (Republic of)", "Iran (Islamic Republic of)", "Brunei Darussalam",
     "Syrian Arab Republic", "Russian Federation"]

@@ -1,6 +1,7 @@
+use matso_data;
 CREATE TABLE domestic_credits (
   country_id INTEGER NOT NULL AUTO_INCREMENT,
-  country_name TEXT,
+  country_name VARCHAR(25),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,

@@ -3,13 +3,14 @@ import pandas as pd
 import openpyxl
 import chardet
 
-def load_csv(filename):
+def load_csv(filename, delimeter=','):
     # Detect the encoding of the file
     with open(filename, 'rb') as f:
         result = chardet.detect(f.read())
 
     with open(filename, 'r', encoding=result['encoding']) as csvfile:
-        reader = csv.reader(csvfile)
+        reader = csv.reader(csvfile, delimiter=delimeter)
+        
         headers = next(reader, None)
         data = {}
         for header in headers:

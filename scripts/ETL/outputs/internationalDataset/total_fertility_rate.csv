@@ -1059,67 +1059,67 @@ RS	Russia	2016	1.6053
 RS	Russia	2017	1.6052
 RS	Russia	2018	1.605
 RS	Russia	2020	1.6047
-KS	Korea South	2036	1.45
-KS	Korea South	2021	1.3
-KS	Korea South	2022	1.31
-KS	Korea South	2023	1.32
-KS	Korea South	2024	1.33
-KS	Korea South	2025	1.34
-KS	Korea South	2026	1.35
-KS	Korea South	2027	1.36
-KS	Korea South	2028	1.37
-KS	Korea South	2029	1.38
-KS	Korea South	2030	1.39
-KS	Korea South	2031	1.4
-KS	Korea South	2032	1.41
-KS	Korea South	2033	1.42
-KS	Korea South	2034	1.43
-KS	Korea South	2035	1.44
-KS	Korea South	1991	1.7269
-KS	Korea South	2037	1.46
-KS	Korea South	2038	1.47
-KS	Korea South	2039	1.48
-KS	Korea South	2040	1.49
-KS	Korea South	2041	1.5
-KS	Korea South	2042	1.51
-KS	Korea South	2043	1.52
-KS	Korea South	2044	1.53
-KS	Korea South	2045	1.54
-KS	Korea South	2046	1.55
-KS	Korea South	2047	1.56
-KS	Korea South	2048	1.57
-KS	Korea South	2049	1.58
-KS	Korea South	2050	1.59
-KS	Korea South	2019	1.28
-KS	Korea South	1990	1.593
-KS	Korea South	1992	1.7781
-KS	Korea South	1993	1.7417
-KS	Korea South	1994	1.7475
-KS	Korea South	1995	1.7313
-KS	Korea South	1996	1.6744
-KS	Korea South	1997	1.6367
-KS	Korea South	1998	1.5631
-KS	Korea South	1999	1.5094
-KS	Korea South	2000	1.5728
-KS	Korea South	2001	1.3913
-KS	Korea South	2002	1.2505
-KS	Korea South	2003	1.2695
-KS	Korea South	2004	1.2447
-KS	Korea South	2005	1.1176
-KS	Korea South	2006	1.1567
-KS	Korea South	2007	1.2833
-KS	Korea South	2008	1.229
-KS	Korea South	2009	1.1911
-KS	Korea South	2010	1.2731
-KS	Korea South	2011	1.282
-KS	Korea South	2012	1.3249
-KS	Korea South	2013	1.2007
-KS	Korea South	2014	1.2125
-KS	Korea South	2015	1.24
-KS	Korea South	2016	1.25
-KS	Korea South	2017	1.26
-KS	Korea South	2018	1.27
-KS	Korea South	2020	1.29
+KS	South Korea	2036	1.45
+KS	South Korea	2021	1.3
+KS	South Korea	2022	1.31
+KS	South Korea	2023	1.32
+KS	South Korea	2024	1.33
+KS	South Korea	2025	1.34
+KS	South Korea	2026	1.35
+KS	South Korea	2027	1.36
+KS	South Korea	2028	1.37
+KS	South Korea	2029	1.38
+KS	South Korea	2030	1.39
+KS	South Korea	2031	1.4
+KS	South Korea	2032	1.41
+KS	South Korea	2033	1.42
+KS	South Korea	2034	1.43
+KS	South Korea	2035	1.44
+KS	South Korea	1991	1.7269
+KS	South Korea	2037	1.46
+KS	South Korea	2038	1.47
+KS	South Korea	2039	1.48
+KS	South Korea	2040	1.49
+KS	South Korea	2041	1.5
+KS	South Korea	2042	1.51
+KS	South Korea	2043	1.52
+KS	South Korea	2044	1.53
+KS	South Korea	2045	1.54
+KS	South Korea	2046	1.55
+KS	South Korea	2047	1.56
+KS	South Korea	2048	1.57
+KS	South Korea	2049	1.58
+KS	South Korea	2050	1.59
+KS	South Korea	2019	1.28
+KS	South Korea	1990	1.593
+KS	South Korea	1992	1.7781
+KS	South Korea	1993	1.7417
+KS	South Korea	1994	1.7475
+KS	South Korea	1995	1.7313
+KS	South Korea	1996	1.6744
+KS	South Korea	1997	1.6367
+KS	South Korea	1998	1.5631
+KS	South Korea	1999	1.5094
+KS	South Korea	2000	1.5728
+KS	South Korea	2001	1.3913
+KS	South Korea	2002	1.2505
+KS	South Korea	2003	1.2695
+KS	South Korea	2004	1.2447
+KS	South Korea	2005	1.1176
+KS	South Korea	2006	1.1567
+KS	South Korea	2007	1.2833
+KS	South Korea	2008	1.229
+KS	South Korea	2009	1.1911
+KS	South Korea	2010	1.2731
+KS	South Korea	2011	1.282
+KS	South Korea	2012	1.3249
+KS	South Korea	2013	1.2007
+KS	South Korea	2014	1.2125
+KS	South Korea	2015	1.24
+KS	South Korea	2016	1.25
+KS	South Korea	2017	1.26
+KS	South Korea	2018	1.27
+KS	South Korea	2020	1.29
 SO	Somalia	2022	5.3138
 SO	Somalia	2031	4.45
 SO	Somalia	2030	4.54
@@ -2533,60 +2533,60 @@ EG	Egypt	2019	3.3508
 EG	Egypt	2020	3.29
 EG	Egypt	2021	3.234
 EG	Egypt	2023	3.122
-GZ	Gaza Strip	2038	2.382
-GZ	Gaza Strip	2025	3.14
-GZ	Gaza Strip	2026	3.064
-GZ	Gaza Strip	2027	2.988
-GZ	Gaza Strip	2028	2.912
-GZ	Gaza Strip	2029	2.836
-GZ	Gaza Strip	2030	2.76
-GZ	Gaza Strip	2031	2.706
-GZ	Gaza Strip	2032	2.652
-GZ	Gaza Strip	2033	2.598
-GZ	Gaza Strip	2034	2.544
-GZ	Gaza Strip	2035	2.49
-GZ	Gaza Strip	2036	2.454
-GZ	Gaza Strip	2037	2.418
-GZ	Gaza Strip	1998	6.2
-GZ	Gaza Strip	2039	2.346
-GZ	Gaza Strip	2040	2.31
-GZ	Gaza Strip	2041	2.286
-GZ	Gaza Strip	2042	2.262
-GZ	Gaza Strip	2043	2.238
-GZ	Gaza Strip	2044	2.214
-GZ	Gaza Strip	2045	2.19
-GZ	Gaza Strip	2046	2.176
-GZ	Gaza Strip	2047	2.162
-GZ	Gaza Strip	2048	2.148
-GZ	Gaza Strip	2049	2.134
-GZ	Gaza Strip	2050	2.12
-GZ	Gaza Strip	2023	3.34
-GZ	Gaza Strip	1997	6.2
-GZ	Gaza Strip	1999	6.2
-GZ	Gaza Strip	2000	6.2
-GZ	Gaza Strip	2001	6.2
-GZ	Gaza Strip	2002	6.2
-GZ	Gaza Strip	2003	6.2
-GZ	Gaza Strip	2004	6.2
-GZ	Gaza Strip	2005	6.2
-GZ	Gaza Strip	2006	6.2
-GZ	Gaza Strip	2007	6.2
-GZ	Gaza Strip	2008	5.95
-GZ	Gaza Strip	2009	5.7
-GZ	Gaza Strip	2010	5.45
-GZ	Gaza Strip	2011	5.2
-GZ	Gaza Strip	2012	4.95
-GZ	Gaza Strip	2013	4.7862
-GZ	Gaza Strip	2014	4.6225
-GZ	Gaza Strip	2015	4.4588
-GZ	Gaza Strip	2016	4.295
-GZ	Gaza Strip	2017	4.1312
-GZ	Gaza Strip	2018	3.9675
-GZ	Gaza Strip	2019	3.8038
-GZ	Gaza Strip	2020	3.64
-GZ	Gaza Strip	2021	3.54
-GZ	Gaza Strip	2022	3.44
-GZ	Gaza Strip	2024	3.24
+GZ	Palestinian Territory	2038	2.382
+GZ	Palestinian Territory	2025	3.14
+GZ	Palestinian Territory	2026	3.064
+GZ	Palestinian Territory	2027	2.988
+GZ	Palestinian Territory	2028	2.912
+GZ	Palestinian Territory	2029	2.836
+GZ	Palestinian Territory	2030	2.76
+GZ	Palestinian Territory	2031	2.706
+GZ	Palestinian Territory	2032	2.652
+GZ	Palestinian Territory	2033	2.598
+GZ	Palestinian Territory	2034	2.544
+GZ	Palestinian Territory	2035	2.49
+GZ	Palestinian Territory	2036	2.454
+GZ	Palestinian Territory	2037	2.418
+GZ	Palestinian Territory	1998	6.2
+GZ	Palestinian Territory	2039	2.346
+GZ	Palestinian Territory	2040	2.31
+GZ	Palestinian Territory	2041	2.286
+GZ	Palestinian Territory	2042	2.262
+GZ	Palestinian Territory	2043	2.238
+GZ	Palestinian Territory	2044	2.214
+GZ	Palestinian Territory	2045	2.19
+GZ	Palestinian Territory	2046	2.176
+GZ	Palestinian Territory	2047	2.162
+GZ	Palestinian Territory	2048	2.148
+GZ	Palestinian Territory	2049	2.134
+GZ	Palestinian Territory	2050	2.12
+GZ	Palestinian Territory	2023	3.34
+GZ	Palestinian Territory	1997	6.2
+GZ	Palestinian Territory	1999	6.2
+GZ	Palestinian Territory	2000	6.2
+GZ	Palestinian Territory	2001	6.2
+GZ	Palestinian Territory	2002	6.2
+GZ	Palestinian Territory	2003	6.2
+GZ	Palestinian Territory	2004	6.2
+GZ	Palestinian Territory	2005	6.2
+GZ	Palestinian Territory	2006	6.2
+GZ	Palestinian Territory	2007	6.2
+GZ	Palestinian Territory	2008	5.95
+GZ	Palestinian Territory	2009	5.7
+GZ	Palestinian Territory	2010	5.45
+GZ	Palestinian Territory	2011	5.2
+GZ	Palestinian Territory	2012	4.95
+GZ	Palestinian Territory	2013	4.7862
+GZ	Palestinian Territory	2014	4.6225
+GZ	Palestinian Territory	2015	4.4588
+GZ	Palestinian Territory	2016	4.295
+GZ	Palestinian Territory	2017	4.1312
+GZ	Palestinian Territory	2018	3.9675
+GZ	Palestinian Territory	2019	3.8038
+GZ	Palestinian Territory	2020	3.64
+GZ	Palestinian Territory	2021	3.54
+GZ	Palestinian Territory	2022	3.44
+GZ	Palestinian Territory	2024	3.24
 LS	Liechtenstein	2036	1.6955
 LS	Liechtenstein	2022	1.691
 LS	Liechtenstein	2023	1.6913
@@ -3583,63 +3583,63 @@ GR	Greece	2017	1.4317
 GR	Greece	2018	1.44
 GR	Greece	2019	1.4484
 GR	Greece	2021	1.465
-FM	Micronesia Federated States of	2037	2.048
-FM	Micronesia Federated States of	2023	2.218
-FM	Micronesia Federated States of	2024	2.194
-FM	Micronesia Federated States of	2025	2.17
-FM	Micronesia Federated States of	2026	2.156
-FM	Micronesia Federated States of	2027	2.142
-FM	Micronesia Federated States of	2028	2.128
-FM	Micronesia Federated States of	2029	2.114
-FM	Micronesia Federated States of	2030	2.1
-FM	Micronesia Federated States of	2031	2.092
-FM	Micronesia Federated States of	2032	2.084
-FM	Micronesia Federated States of	2033	2.076
-FM	Micronesia Federated States of	2034	2.068
-FM	Micronesia Federated States of	2035	2.06
-FM	Micronesia Federated States of	2036	2.054
-FM	Micronesia Federated States of	1995	4.6564
-FM	Micronesia Federated States of	2038	2.042
-FM	Micronesia Federated States of	2039	2.036
-FM	Micronesia Federated States of	2040	2.03
-FM	Micronesia Federated States of	2041	2.028
-FM	Micronesia Federated States of	2042	2.026
-FM	Micronesia Federated States of	2043	2.024
-FM	Micronesia Federated States of	2044	2.022
-FM	Micronesia Federated States of	2045	2.02
-FM	Micronesia Federated States of	2046	2.018
-FM	Micronesia Federated States of	2047	2.016
-FM	Micronesia Federated States of	2048	2.014
-FM	Micronesia Federated States of	2049	2.012
-FM	Micronesia Federated States of	2050	2.01
-FM	Micronesia Federated States of	2021	2.266
-FM	Micronesia Federated States of	1994	4.827
-FM	Micronesia Federated States of	1996	4.4858
-FM	Micronesia Federated States of	1997	4.3152
-FM	Micronesia Federated States of	1998	4.1446
-FM	Micronesia Federated States of	1999	3.974
-FM	Micronesia Federated States of	2000	3.87
-FM	Micronesia Federated States of	2001	3.746
-FM	Micronesia Federated States of	2002	3.622
-FM	Micronesia Federated States of	2003	3.498
-FM	Micronesia Federated States of	2004	3.374
-FM	Micronesia Federated States of	2005	3.25
-FM	Micronesia Federated States of	2006	3.16
-FM	Micronesia Federated States of	2007	3.07
-FM	Micronesia Federated States of	2008	2.98
-FM	Micronesia Federated States of	2009	2.89
-FM	Micronesia Federated States of	2010	2.8
-FM	Micronesia Federated States of	2011	2.738
-FM	Micronesia Federated States of	2012	2.676
-FM	Micronesia Federated States of	2013	2.614
-FM	Micronesia Federated States of	2014	2.552
-FM	Micronesia Federated States of	2015	2.49
-FM	Micronesia Federated States of	2016	2.45
-FM	Micronesia Federated States of	2017	2.41
-FM	Micronesia Federated States of	2018	2.37
-FM	Micronesia Federated States of	2019	2.33
-FM	Micronesia Federated States of	2020	2.29
-FM	Micronesia Federated States of	2022	2.242
+FM	Micronesia	2037	2.048
+FM	Micronesia	2023	2.218
+FM	Micronesia	2024	2.194
+FM	Micronesia	2025	2.17
+FM	Micronesia	2026	2.156
+FM	Micronesia	2027	2.142
+FM	Micronesia	2028	2.128
+FM	Micronesia	2029	2.114
+FM	Micronesia	2030	2.1
+FM	Micronesia	2031	2.092
+FM	Micronesia	2032	2.084
+FM	Micronesia	2033	2.076
+FM	Micronesia	2034	2.068
+FM	Micronesia	2035	2.06
+FM	Micronesia	2036	2.054
+FM	Micronesia	1995	4.6564
+FM	Micronesia	2038	2.042
+FM	Micronesia	2039	2.036
+FM	Micronesia	2040	2.03
+FM	Micronesia	2041	2.028
+FM	Micronesia	2042	2.026
+FM	Micronesia	2043	2.024
+FM	Micronesia	2044	2.022
+FM	Micronesia	2045	2.02
+FM	Micronesia	2046	2.018
+FM	Micronesia	2047	2.016
+FM	Micronesia	2048	2.014
+FM	Micronesia	2049	2.012
+FM	Micronesia	2050	2.01
+FM	Micronesia	2021	2.266
+FM	Micronesia	1994	4.827
+FM	Micronesia	1996	4.4858
+FM	Micronesia	1997	4.3152
+FM	Micronesia	1998	4.1446
+FM	Micronesia	1999	3.974
+FM	Micronesia	2000	3.87
+FM	Micronesia	2001	3.746
+FM	Micronesia	2002	3.622
+FM	Micronesia	2003	3.498
+FM	Micronesia	2004	3.374
+FM	Micronesia	2005	3.25
+FM	Micronesia	2006	3.16
+FM	Micronesia	2007	3.07
+FM	Micronesia	2008	2.98
+FM	Micronesia	2009	2.89
+FM	Micronesia	2010	2.8
+FM	Micronesia	2011	2.738
+FM	Micronesia	2012	2.676
+FM	Micronesia	2013	2.614
+FM	Micronesia	2014	2.552
+FM	Micronesia	2015	2.49
+FM	Micronesia	2016	2.45
+FM	Micronesia	2017	2.41
+FM	Micronesia	2018	2.37
+FM	Micronesia	2019	2.33
+FM	Micronesia	2020	2.29
+FM	Micronesia	2022	2.242
 CH	China	2036	1.6
 CH	China	2021	1.6
 CH	China	2022	1.6
@@ -4224,82 +4224,82 @@ SP	Spain	2017	1.4957
 SP	Spain	2018	1.5
 SP	Spain	2019	1.5058
 SP	Spain	2021	1.5173
-IV	Cote d'Ivoire	2022	3.03
-IV	Cote d'Ivoire	2031	2.576
-IV	Cote d'Ivoire	2030	2.61
-IV	Cote d'Ivoire	2029	2.658
-IV	Cote d'Ivoire	2028	2.706
-IV	Cote d'Ivoire	2027	2.754
-IV	Cote d'Ivoire	2026	2.802
-IV	Cote d'Ivoire	2025	2.85
-IV	Cote d'Ivoire	2024	2.91
-IV	Cote d'Ivoire	2023	2.97
-IV	Cote d'Ivoire	2032	2.542
-IV	Cote d'Ivoire	2021	3.09
-IV	Cote d'Ivoire	2020	3.15
-IV	Cote d'Ivoire	2019	3.228
-IV	Cote d'Ivoire	2018	3.306
-IV	Cote d'Ivoire	2017	3.384
-IV	Cote d'Ivoire	2016	3.462
-IV	Cote d'Ivoire	2015	3.54
-IV	Cote d'Ivoire	2014	3.634
-IV	Cote d'Ivoire	2041	2.292
-IV	Cote d'Ivoire	2050	2.15
-IV	Cote d'Ivoire	2049	2.164
-IV	Cote d'Ivoire	2048	2.178
-IV	Cote d'Ivoire	2047	2.192
-IV	Cote d'Ivoire	2046	2.206
-IV	Cote d'Ivoire	2045	2.22
-IV	Cote d'Ivoire	2044	2.238
-IV	Cote d'Ivoire	2043	2.256
-IV	Cote d'Ivoire	2042	2.274
-IV	Cote d'Ivoire	1976	7.5059
-IV	Cote d'Ivoire	2040	2.31
-IV	Cote d'Ivoire	2039	2.336
-IV	Cote d'Ivoire	2038	2.362
-IV	Cote d'Ivoire	2037	2.388
-IV	Cote d'Ivoire	2036	2.414
-IV	Cote d'Ivoire	2035	2.44
-IV	Cote d'Ivoire	2034	2.474
-IV	Cote d'Ivoire	2033	2.508
-IV	Cote d'Ivoire	1984	6.913
-IV	Cote d'Ivoire	1993	5.7775
-IV	Cote d'Ivoire	1992	5.9687
-IV	Cote d'Ivoire	1991	6.16
-IV	Cote d'Ivoire	1990	6.3512
-IV	Cote d'Ivoire	1989	6.5425
-IV	Cote d'Ivoire	1988	6.6166
-IV	Cote d'Ivoire	1987	6.6907
-IV	Cote d'Ivoire	1986	6.7648
-IV	Cote d'Ivoire	1985	6.8389
-IV	Cote d'Ivoire	2012	3.822
-IV	Cote d'Ivoire	1983	6.9871
-IV	Cote d'Ivoire	1982	7.0613
-IV	Cote d'Ivoire	1981	7.1354
-IV	Cote d'Ivoire	1980	7.2095
-IV	Cote d'Ivoire	1979	7.2836
-IV	Cote d'Ivoire	1978	7.3577
-IV	Cote d'Ivoire	1977	7.4318
-IV	Cote d'Ivoire	1975	7.58
-IV	Cote d'Ivoire	1995	5.5989
-IV	Cote d'Ivoire	2013	3.728
-IV	Cote d'Ivoire	2011	3.916
-IV	Cote d'Ivoire	2010	4.01
-IV	Cote d'Ivoire	2009	4.118
-IV	Cote d'Ivoire	2008	4.226
-IV	Cote d'Ivoire	2007	4.334
-IV	Cote d'Ivoire	2006	4.442
-IV	Cote d'Ivoire	2005	4.55
-IV	Cote d'Ivoire	2004	4.6705
-IV	Cote d'Ivoire	2003	4.791
-IV	Cote d'Ivoire	2002	4.9115
-IV	Cote d'Ivoire	2001	5.032
-IV	Cote d'Ivoire	2000	5.1525
-IV	Cote d'Ivoire	1999	5.2417
-IV	Cote d'Ivoire	1998	5.3311
-IV	Cote d'Ivoire	1997	5.4204
-IV	Cote d'Ivoire	1996	5.5096
-IV	Cote d'Ivoire	1994	5.6882
+IV	Ivory Coast	2022	3.03
+IV	Ivory Coast	2031	2.576
+IV	Ivory Coast	2030	2.61
+IV	Ivory Coast	2029	2.658
+IV	Ivory Coast	2028	2.706
+IV	Ivory Coast	2027	2.754
+IV	Ivory Coast	2026	2.802
+IV	Ivory Coast	2025	2.85
+IV	Ivory Coast	2024	2.91
+IV	Ivory Coast	2023	2.97
+IV	Ivory Coast	2032	2.542
+IV	Ivory Coast	2021	3.09
+IV	Ivory Coast	2020	3.15
+IV	Ivory Coast	2019	3.228
+IV	Ivory Coast	2018	3.306
+IV	Ivory Coast	2017	3.384
+IV	Ivory Coast	2016	3.462
+IV	Ivory Coast	2015	3.54
+IV	Ivory Coast	2014	3.634
+IV	Ivory Coast	2041	2.292
+IV	Ivory Coast	2050	2.15
+IV	Ivory Coast	2049	2.164
+IV	Ivory Coast	2048	2.178
+IV	Ivory Coast	2047	2.192
+IV	Ivory Coast	2046	2.206
+IV	Ivory Coast	2045	2.22
+IV	Ivory Coast	2044	2.238
+IV	Ivory Coast	2043	2.256
+IV	Ivory Coast	2042	2.274
+IV	Ivory Coast	1976	7.5059
+IV	Ivory Coast	2040	2.31
+IV	Ivory Coast	2039	2.336
+IV	Ivory Coast	2038	2.362
+IV	Ivory Coast	2037	2.388
+IV	Ivory Coast	2036	2.414
+IV	Ivory Coast	2035	2.44
+IV	Ivory Coast	2034	2.474
+IV	Ivory Coast	2033	2.508
+IV	Ivory Coast	1984	6.913
+IV	Ivory Coast	1993	5.7775
+IV	Ivory Coast	1992	5.9687
+IV	Ivory Coast	1991	6.16
+IV	Ivory Coast	1990	6.3512
+IV	Ivory Coast	1989	6.5425
+IV	Ivory Coast	1988	6.6166
+IV	Ivory Coast	1987	6.6907
+IV	Ivory Coast	1986	6.7648
+IV	Ivory Coast	1985	6.8389
+IV	Ivory Coast	2012	3.822
+IV	Ivory Coast	1983	6.9871
+IV	Ivory Coast	1982	7.0613
+IV	Ivory Coast	1981	7.1354
+IV	Ivory Coast	1980	7.2095
+IV	Ivory Coast	1979	7.2836
+IV	Ivory Coast	1978	7.3577
+IV	Ivory Coast	1977	7.4318
+IV	Ivory Coast	1975	7.58
+IV	Ivory Coast	1995	5.5989
+IV	Ivory Coast	2013	3.728
+IV	Ivory Coast	2011	3.916
+IV	Ivory Coast	2010	4.01
+IV	Ivory Coast	2009	4.118
+IV	Ivory Coast	2008	4.226
+IV	Ivory Coast	2007	4.334
+IV	Ivory Coast	2006	4.442
+IV	Ivory Coast	2005	4.55
+IV	Ivory Coast	2004	4.6705
+IV	Ivory Coast	2003	4.791
+IV	Ivory Coast	2002	4.9115
+IV	Ivory Coast	2001	5.032
+IV	Ivory Coast	2000	5.1525
+IV	Ivory Coast	1999	5.2417
+IV	Ivory Coast	1998	5.3311
+IV	Ivory Coast	1997	5.4204
+IV	Ivory Coast	1996	5.5096
+IV	Ivory Coast	1994	5.6882
 EN	Estonia	2036	1.6571
 EN	Estonia	2021	1.6111
 EN	Estonia	2022	1.6141
@@ -4983,64 +4983,64 @@ JM	Jamaica	2003	2.5901
 JM	Jamaica	2002	2.6426
 JM	Jamaica	2001	2.6952
 JM	Jamaica	1999	2.9115
-KN	Korea North	2037	1.768
-KN	Korea North	2023	1.89
-KN	Korea North	2024	1.88
-KN	Korea North	2025	1.87
-KN	Korea North	2026	1.86
-KN	Korea North	2027	1.85
-KN	Korea North	2028	1.84
-KN	Korea North	2029	1.83
-KN	Korea North	2030	1.82
-KN	Korea North	2031	1.812
-KN	Korea North	2032	1.804
-KN	Korea North	2033	1.796
-KN	Korea North	2034	1.788
-KN	Korea North	2035	1.78
-KN	Korea North	2036	1.774
-KN	Korea North	1994	2.2225
-KN	Korea North	2038	1.762
-KN	Korea North	2039	1.756
-KN	Korea North	2040	1.75
-KN	Korea North	2041	1.742
-KN	Korea North	2042	1.734
-KN	Korea North	2043	1.726
-KN	Korea North	2044	1.718
-KN	Korea North	2045	1.71
-KN	Korea North	2046	1.708
-KN	Korea North	2047	1.706
-KN	Korea North	2048	1.704
-KN	Korea North	2049	1.702
-KN	Korea North	2050	1.7
-KN	Korea North	2021	1.91
-KN	Korea North	1993	2.28
-KN	Korea North	1995	2.165
-KN	Korea North	1996	2.1075
-KN	Korea North	1997	2.05
-KN	Korea North	1998	2.05
-KN	Korea North	1999	2.1
-KN	Korea North	2000	2.0956
-KN	Korea North	2001	2.0911
-KN	Korea North	2002	2.0867
-KN	Korea North	2003	2.0822
-KN	Korea North	2004	2.0778
-KN	Korea North	2005	2.0733
-KN	Korea North	2006	2.0689
-KN	Korea North	2007	2.0644
-KN	Korea North	2008	2.06
-KN	Korea North	2009	2.045
-KN	Korea North	2010	2.03
-KN	Korea North	2011	2.018
-KN	Korea North	2012	2.006
-KN	Korea North	2013	1.994
-KN	Korea North	2014	1.982
-KN	Korea North	2015	1.97
-KN	Korea North	2016	1.96
-KN	Korea North	2017	1.95
-KN	Korea North	2018	1.94
-KN	Korea North	2019	1.93
-KN	Korea North	2020	1.92
-KN	Korea North	2022	1.9
+KN	North Korea	2037	1.768
+KN	North Korea	2023	1.89
+KN	North Korea	2024	1.88
+KN	North Korea	2025	1.87
+KN	North Korea	2026	1.86
+KN	North Korea	2027	1.85
+KN	North Korea	2028	1.84
+KN	North Korea	2029	1.83
+KN	North Korea	2030	1.82
+KN	North Korea	2031	1.812
+KN	North Korea	2032	1.804
+KN	North Korea	2033	1.796
+KN	North Korea	2034	1.788
+KN	North Korea	2035	1.78
+KN	North Korea	2036	1.774
+KN	North Korea	1994	2.2225
+KN	North Korea	2038	1.762
+KN	North Korea	2039	1.756
+KN	North Korea	2040	1.75
+KN	North Korea	2041	1.742
+KN	North Korea	2042	1.734
+KN	North Korea	2043	1.726
+KN	North Korea	2044	1.718
+KN	North Korea	2045	1.71
+KN	North Korea	2046	1.708
+KN	North Korea	2047	1.706
+KN	North Korea	2048	1.704
+KN	North Korea	2049	1.702
+KN	North Korea	2050	1.7
+KN	North Korea	2021	1.91
+KN	North Korea	1993	2.28
+KN	North Korea	1995	2.165
+KN	North Korea	1996	2.1075
+KN	North Korea	1997	2.05
+KN	North Korea	1998	2.05
+KN	North Korea	1999	2.1
+KN	North Korea	2000	2.0956
+KN	North Korea	2001	2.0911
+KN	North Korea	2002	2.0867
+KN	North Korea	2003	2.0822
+KN	North Korea	2004	2.0778
+KN	North Korea	2005	2.0733
+KN	North Korea	2006	2.0689
+KN	North Korea	2007	2.0644
+KN	North Korea	2008	2.06
+KN	North Korea	2009	2.045
+KN	North Korea	2010	2.03
+KN	North Korea	2011	2.018
+KN	North Korea	2012	2.006
+KN	North Korea	2013	1.994
+KN	North Korea	2014	1.982
+KN	North Korea	2015	1.97
+KN	North Korea	2016	1.96
+KN	North Korea	2017	1.95
+KN	North Korea	2018	1.94
+KN	North Korea	2019	1.93
+KN	North Korea	2020	1.92
+KN	North Korea	2022	1.9
 AL	Albania	2036	1.6203
 AL	Albania	2021	1.535
 AL	Albania	2022	1.5406
@@ -5296,66 +5296,66 @@ PM	Panama	2002	2.6154
 PM	Panama	2001	2.7416
 PM	Panama	2000	2.8162
 PM	Panama	1998	2.7866
-MC	Macau	2036	1.0345
-MC	Macau	2022	0.9689
-MC	Macau	2023	0.9736
-MC	Macau	2024	0.9783
-MC	Macau	2025	0.983
-MC	Macau	2026	0.9877
-MC	Macau	2027	0.9923
-MC	Macau	2028	0.997
-MC	Macau	2029	1.0017
-MC	Macau	2030	1.0064
-MC	Macau	2031	1.0111
-MC	Macau	2032	1.0157
-MC	Macau	2033	1.0204
-MC	Macau	2034	1.0251
-MC	Macau	2035	1.0298
-MC	Macau	1992	1.5997
-MC	Macau	2037	1.0391
-MC	Macau	2038	1.0438
-MC	Macau	2039	1.0485
-MC	Macau	2040	1.0532
-MC	Macau	2041	1.0579
-MC	Macau	2042	1.0626
-MC	Macau	2043	1.0672
-MC	Macau	2044	1.0719
-MC	Macau	2045	1.0766
-MC	Macau	2046	1.0813
-MC	Macau	2047	1.086
-MC	Macau	2048	1.0906
-MC	Macau	2049	1.0953
-MC	Macau	2050	1.1
-MC	Macau	2020	0.9596
-MC	Macau	1991	1.644
-MC	Macau	1993	1.501
-MC	Macau	1994	1.481
-MC	Macau	1995	1.4314
-MC	Macau	1996	1.3378
-MC	Macau	1997	1.2426
-MC	Macau	1998	1.1165
-MC	Macau	1999	1.0578
-MC	Macau	2000	0.9959
-MC	Macau	2001	0.8559
-MC	Macau	2002	0.8371
-MC	Macau	2003	0.8468
-MC	Macau	2004	0.8453
-MC	Macau	2005	0.8792
-MC	Macau	2006	0.894
-MC	Macau	2007	0.8987
-MC	Macau	2008	0.9034
-MC	Macau	2009	0.9081
-MC	Macau	2010	0.9128
-MC	Macau	2011	0.9174
-MC	Macau	2012	0.9221
-MC	Macau	2013	0.9268
-MC	Macau	2014	0.9315
-MC	Macau	2015	0.9362
-MC	Macau	2016	0.9408
-MC	Macau	2017	0.9455
-MC	Macau	2018	0.9502
-MC	Macau	2019	0.9549
-MC	Macau	2021	0.9643
+MC	Macao	2036	1.0345
+MC	Macao	2022	0.9689
+MC	Macao	2023	0.9736
+MC	Macao	2024	0.9783
+MC	Macao	2025	0.983
+MC	Macao	2026	0.9877
+MC	Macao	2027	0.9923
+MC	Macao	2028	0.997
+MC	Macao	2029	1.0017
+MC	Macao	2030	1.0064
+MC	Macao	2031	1.0111
+MC	Macao	2032	1.0157
+MC	Macao	2033	1.0204
+MC	Macao	2034	1.0251
+MC	Macao	2035	1.0298
+MC	Macao	1992	1.5997
+MC	Macao	2037	1.0391
+MC	Macao	2038	1.0438
+MC	Macao	2039	1.0485
+MC	Macao	2040	1.0532
+MC	Macao	2041	1.0579
+MC	Macao	2042	1.0626
+MC	Macao	2043	1.0672
+MC	Macao	2044	1.0719
+MC	Macao	2045	1.0766
+MC	Macao	2046	1.0813
+MC	Macao	2047	1.086
+MC	Macao	2048	1.0906
+MC	Macao	2049	1.0953
+MC	Macao	2050	1.1
+MC	Macao	2020	0.9596
+MC	Macao	1991	1.644
+MC	Macao	1993	1.501
+MC	Macao	1994	1.481
+MC	Macao	1995	1.4314
+MC	Macao	1996	1.3378
+MC	Macao	1997	1.2426
+MC	Macao	1998	1.1165
+MC	Macao	1999	1.0578
+MC	Macao	2000	0.9959
+MC	Macao	2001	0.8559
+MC	Macao	2002	0.8371
+MC	Macao	2003	0.8468
+MC	Macao	2004	0.8453
+MC	Macao	2005	0.8792
+MC	Macao	2006	0.894
+MC	Macao	2007	0.8987
+MC	Macao	2008	0.9034
+MC	Macao	2009	0.9081
+MC	Macao	2010	0.9128
+MC	Macao	2011	0.9174
+MC	Macao	2012	0.9221
+MC	Macao	2013	0.9268
+MC	Macao	2014	0.9315
+MC	Macao	2015	0.9362
+MC	Macao	2016	0.9408
+MC	Macao	2017	0.9455
+MC	Macao	2018	0.9502
+MC	Macao	2019	0.9549
+MC	Macao	2021	0.9643
 NP	Nepal	2021	1.932
 NP	Nepal	2030	1.75
 NP	Nepal	2029	1.764
@@ -7294,66 +7294,66 @@ GL	Greenland	2016	2.01
 GL	Greenland	2017	1.992
 GL	Greenland	2018	1.974
 GL	Greenland	2020	1.938
-VI	Virgin Islands British	2036	1.5312
-VI	Virgin Islands British	2022	1.3524
-VI	Virgin Islands British	2023	1.3652
-VI	Virgin Islands British	2024	1.3779
-VI	Virgin Islands British	2025	1.3907
-VI	Virgin Islands British	2026	1.4035
-VI	Virgin Islands British	2027	1.4162
-VI	Virgin Islands British	2028	1.429
-VI	Virgin Islands British	2029	1.4418
-VI	Virgin Islands British	2030	1.4546
-VI	Virgin Islands British	2031	1.4673
-VI	Virgin Islands British	2032	1.4801
-VI	Virgin Islands British	2033	1.4929
-VI	Virgin Islands British	2034	1.5057
-VI	Virgin Islands British	2035	1.5184
-VI	Virgin Islands British	1992	1.8228
-VI	Virgin Islands British	2037	1.544
-VI	Virgin Islands British	2038	1.5567
-VI	Virgin Islands British	2039	1.5695
-VI	Virgin Islands British	2040	1.5823
-VI	Virgin Islands British	2041	1.5951
-VI	Virgin Islands British	2042	1.6078
-VI	Virgin Islands British	2043	1.6206
-VI	Virgin Islands British	2044	1.6334
-VI	Virgin Islands British	2045	1.6461
-VI	Virgin Islands British	2046	1.6589
-VI	Virgin Islands British	2047	1.6717
-VI	Virgin Islands British	2048	1.6845
-VI	Virgin Islands British	2049	1.6972
-VI	Virgin Islands British	2050	1.71
-VI	Virgin Islands British	2020	1.3268
-VI	Virgin Islands British	1991	2.4005
-VI	Virgin Islands British	1993	1.8928
-VI	Virgin Islands British	1994	1.6981
-VI	Virgin Islands British	1995	1.6109
-VI	Virgin Islands British	1996	1.5828
-VI	Virgin Islands British	1997	1.8322
-VI	Virgin Islands British	1998	1.4228
-VI	Virgin Islands British	1999	1.5789
-VI	Virgin Islands British	2000	1.5985
-VI	Virgin Islands British	2001	1.5148
-VI	Virgin Islands British	2002	1.1962
-VI	Virgin Islands British	2003	1.2471
-VI	Virgin Islands British	2004	1.4386
-VI	Virgin Islands British	2005	1.2557
-VI	Virgin Islands British	2006	1.1234
-VI	Virgin Islands British	2007	1.1608
-VI	Virgin Islands British	2008	1.1736
-VI	Virgin Islands British	2009	1.1864
-VI	Virgin Islands British	2010	1.1991
-VI	Virgin Islands British	2011	1.2119
-VI	Virgin Islands British	2012	1.2247
-VI	Virgin Islands British	2013	1.2374
-VI	Virgin Islands British	2014	1.2502
-VI	Virgin Islands British	2015	1.263
-VI	Virgin Islands British	2016	1.2758
-VI	Virgin Islands British	2017	1.2885
-VI	Virgin Islands British	2018	1.3013
-VI	Virgin Islands British	2019	1.3141
-VI	Virgin Islands British	2021	1.3396
+VI	British Virgin Islands	2036	1.5312
+VI	British Virgin Islands	2022	1.3524
+VI	British Virgin Islands	2023	1.3652
+VI	British Virgin Islands	2024	1.3779
+VI	British Virgin Islands	2025	1.3907
+VI	British Virgin Islands	2026	1.4035
+VI	British Virgin Islands	2027	1.4162
+VI	British Virgin Islands	2028	1.429
+VI	British Virgin Islands	2029	1.4418
+VI	British Virgin Islands	2030	1.4546
+VI	British Virgin Islands	2031	1.4673
+VI	British Virgin Islands	2032	1.4801
+VI	British Virgin Islands	2033	1.4929
+VI	British Virgin Islands	2034	1.5057
+VI	British Virgin Islands	2035	1.5184
+VI	British Virgin Islands	1992	1.8228
+VI	British Virgin Islands	2037	1.544
+VI	British Virgin Islands	2038	1.5567
+VI	British Virgin Islands	2039	1.5695
+VI	British Virgin Islands	2040	1.5823
+VI	British Virgin Islands	2041	1.5951
+VI	British Virgin Islands	2042	1.6078
+VI	British Virgin Islands	2043	1.6206
+VI	British Virgin Islands	2044	1.6334
+VI	British Virgin Islands	2045	1.6461
+VI	British Virgin Islands	2046	1.6589
+VI	British Virgin Islands	2047	1.6717
+VI	British Virgin Islands	2048	1.6845
+VI	British Virgin Islands	2049	1.6972
+VI	British Virgin Islands	2050	1.71
+VI	British Virgin Islands	2020	1.3268
+VI	British Virgin Islands	1991	2.4005
+VI	British Virgin Islands	1993	1.8928
+VI	British Virgin Islands	1994	1.6981
+VI	British Virgin Islands	1995	1.6109
+VI	British Virgin Islands	1996	1.5828
+VI	British Virgin Islands	1997	1.8322
+VI	British Virgin Islands	1998	1.4228
+VI	British Virgin Islands	1999	1.5789
+VI	British Virgin Islands	2000	1.5985
+VI	British Virgin Islands	2001	1.5148
+VI	British Virgin Islands	2002	1.1962
+VI	British Virgin Islands	2003	1.2471
+VI	British Virgin Islands	2004	1.4386
+VI	British Virgin Islands	2005	1.2557
+VI	British Virgin Islands	2006	1.1234
+VI	British Virgin Islands	2007	1.1608
+VI	British Virgin Islands	2008	1.1736
+VI	British Virgin Islands	2009	1.1864
+VI	British Virgin Islands	2010	1.1991
+VI	British Virgin Islands	2011	1.2119
+VI	British Virgin Islands	2012	1.2247
+VI	British Virgin Islands	2013	1.2374
+VI	British Virgin Islands	2014	1.2502
+VI	British Virgin Islands	2015	1.263
+VI	British Virgin Islands	2016	1.2758
+VI	British Virgin Islands	2017	1.2885
+VI	British Virgin Islands	2018	1.3013
+VI	British Virgin Islands	2019	1.3141
+VI	British Virgin Islands	2021	1.3396
 ES	El Salvador	2036	1.708
 ES	El Salvador	2022	1.78
 ES	El Salvador	2023	1.77
@@ -7555,77 +7555,77 @@ RP	Philippines	2002	3.6081
 RP	Philippines	2001	3.6637
 RP	Philippines	2000	3.7193
 RP	Philippines	1998	3.8305
-BF	Bahamas The	2024	1.8922
-BF	Bahamas The	2032	1.8324
-BF	Bahamas The	2031	1.8406
-BF	Bahamas The	2030	1.8485
-BF	Bahamas The	2029	1.8541
-BF	Bahamas The	2028	1.8623
-BF	Bahamas The	2027	1.8696
-BF	Bahamas The	2026	1.8777
-BF	Bahamas The	2025	1.8851
-BF	Bahamas The	2033	1.8263
-BF	Bahamas The	2023	1.8994
-BF	Bahamas The	2022	1.9064
-BF	Bahamas The	2021	1.9148
-BF	Bahamas The	2020	1.9219
-BF	Bahamas The	2019	1.9298
-BF	Bahamas The	2018	1.9366
-BF	Bahamas The	2017	1.9449
-BF	Bahamas The	2016	1.9531
-BF	Bahamas The	2042	1.76
-BF	Bahamas The	2050	1.6985
-BF	Bahamas The	2049	1.7075
-BF	Bahamas The	2048	1.7146
-BF	Bahamas The	2047	1.7229
-BF	Bahamas The	2046	1.7301
-BF	Bahamas The	2045	1.7379
-BF	Bahamas The	2044	1.7441
-BF	Bahamas The	2043	1.753
-BF	Bahamas The	1981	2.767
-BF	Bahamas The	2041	1.7674
-BF	Bahamas The	2040	1.7748
-BF	Bahamas The	2039	1.7821
-BF	Bahamas The	2038	1.7899
-BF	Bahamas The	2037	1.7973
-BF	Bahamas The	2036	1.8041
-BF	Bahamas The	2035	1.8121
-BF	Bahamas The	2034	1.8192
-BF	Bahamas The	1989	2.4225
-BF	Bahamas The	1997	2.303
-BF	Bahamas The	1996	2.3069
-BF	Bahamas The	1995	2.2897
-BF	Bahamas The	1994	2.3347
-BF	Bahamas The	1993	2.3983
-BF	Bahamas The	1992	2.4937
-BF	Bahamas The	1991	2.5232
-BF	Bahamas The	1990	2.4961
-BF	Bahamas The	2014	1.9676
-BF	Bahamas The	1988	2.285
-BF	Bahamas The	1987	2.177
-BF	Bahamas The	1986	2.2822
-BF	Bahamas The	1985	2.4204
-BF	Bahamas The	1984	2.5636
-BF	Bahamas The	1983	2.5781
-BF	Bahamas The	1982	2.7372
-BF	Bahamas The	1980	2.7955
-BF	Bahamas The	1999	2.1204
-BF	Bahamas The	2015	1.9598
-BF	Bahamas The	2013	1.9747
-BF	Bahamas The	2012	1.9823
-BF	Bahamas The	2011	1.9901
-BF	Bahamas The	2010	1.9976
-BF	Bahamas The	2009	2.0042
-BF	Bahamas The	2008	2.0122
-BF	Bahamas The	2007	2.019
-BF	Bahamas The	2006	2.0264
-BF	Bahamas The	2005	2.034
-BF	Bahamas The	2004	2.0366
-BF	Bahamas The	2003	1.9899
-BF	Bahamas The	2002	2.0095
-BF	Bahamas The	2001	2.0403
-BF	Bahamas The	2000	2.0477
-BF	Bahamas The	1998	2.2237
+BF	Bahamas	2024	1.8922
+BF	Bahamas	2032	1.8324
+BF	Bahamas	2031	1.8406
+BF	Bahamas	2030	1.8485
+BF	Bahamas	2029	1.8541
+BF	Bahamas	2028	1.8623
+BF	Bahamas	2027	1.8696
+BF	Bahamas	2026	1.8777
+BF	Bahamas	2025	1.8851
+BF	Bahamas	2033	1.8263
+BF	Bahamas	2023	1.8994
+BF	Bahamas	2022	1.9064
+BF	Bahamas	2021	1.9148
+BF	Bahamas	2020	1.9219
+BF	Bahamas	2019	1.9298
+BF	Bahamas	2018	1.9366
+BF	Bahamas	2017	1.9449
+BF	Bahamas	2016	1.9531
+BF	Bahamas	2042	1.76
+BF	Bahamas	2050	1.6985
+BF	Bahamas	2049	1.7075
+BF	Bahamas	2048	1.7146
+BF	Bahamas	2047	1.7229
+BF	Bahamas	2046	1.7301
+BF	Bahamas	2045	1.7379
+BF	Bahamas	2044	1.7441
+BF	Bahamas	2043	1.753
+BF	Bahamas	1981	2.767
+BF	Bahamas	2041	1.7674
+BF	Bahamas	2040	1.7748
+BF	Bahamas	2039	1.7821
+BF	Bahamas	2038	1.7899
+BF	Bahamas	2037	1.7973
+BF	Bahamas	2036	1.8041
+BF	Bahamas	2035	1.8121
+BF	Bahamas	2034	1.8192
+BF	Bahamas	1989	2.4225
+BF	Bahamas	1997	2.303
+BF	Bahamas	1996	2.3069
+BF	Bahamas	1995	2.2897
+BF	Bahamas	1994	2.3347
+BF	Bahamas	1993	2.3983
+BF	Bahamas	1992	2.4937
+BF	Bahamas	1991	2.5232
+BF	Bahamas	1990	2.4961
+BF	Bahamas	2014	1.9676
+BF	Bahamas	1988	2.285
+BF	Bahamas	1987	2.177
+BF	Bahamas	1986	2.2822
+BF	Bahamas	1985	2.4204
+BF	Bahamas	1984	2.5636
+BF	Bahamas	1983	2.5781
+BF	Bahamas	1982	2.7372
+BF	Bahamas	1980	2.7955
+BF	Bahamas	1999	2.1204
+BF	Bahamas	2015	1.9598
+BF	Bahamas	2013	1.9747
+BF	Bahamas	2012	1.9823
+BF	Bahamas	2011	1.9901
+BF	Bahamas	2010	1.9976
+BF	Bahamas	2009	2.0042
+BF	Bahamas	2008	2.0122
+BF	Bahamas	2007	2.019
+BF	Bahamas	2006	2.0264
+BF	Bahamas	2005	2.034
+BF	Bahamas	2004	2.0366
+BF	Bahamas	2003	1.9899
+BF	Bahamas	2002	2.0095
+BF	Bahamas	2001	2.0403
+BF	Bahamas	2000	2.0477
+BF	Bahamas	1998	2.2237
 BH	Belize	2024	2.5467
 BH	Belize	2032	2.3196
 BH	Belize	2031	2.3395
@@ -8495,67 +8495,67 @@ TS	Tunisia	2005	1.9968
 TS	Tunisia	2004	1.9748
 TS	Tunisia	2003	2.0246
 TS	Tunisia	2001	2.0336
-TT	Timor-Leste	2036	2.856
-TT	Timor-Leste	2021	4.324
-TT	Timor-Leste	2022	4.208
-TT	Timor-Leste	2023	4.092
-TT	Timor-Leste	2024	3.9761
-TT	Timor-Leste	2025	3.8601
-TT	Timor-Leste	2026	3.7559
-TT	Timor-Leste	2027	3.652
-TT	Timor-Leste	2028	3.5481
-TT	Timor-Leste	2029	3.444
-TT	Timor-Leste	2030	3.34
-TT	Timor-Leste	2031	3.256
-TT	Timor-Leste	2032	3.172
-TT	Timor-Leste	2033	3.088
-TT	Timor-Leste	2034	3.004
-TT	Timor-Leste	2035	2.92
-TT	Timor-Leste	1991	5.7901
-TT	Timor-Leste	2037	2.792
-TT	Timor-Leste	2038	2.728
-TT	Timor-Leste	2039	2.664
-TT	Timor-Leste	2040	2.6
-TT	Timor-Leste	2041	2.558
-TT	Timor-Leste	2042	2.516
-TT	Timor-Leste	2043	2.474
-TT	Timor-Leste	2044	2.432
-TT	Timor-Leste	2045	2.39
-TT	Timor-Leste	2046	2.36
-TT	Timor-Leste	2047	2.33
-TT	Timor-Leste	2048	2.3
-TT	Timor-Leste	2049	2.27
-TT	Timor-Leste	2050	2.24
-TT	Timor-Leste	2019	4.5599
-TT	Timor-Leste	1990	5.7999
-TT	Timor-Leste	1992	5.7801
-TT	Timor-Leste	1993	5.8215
-TT	Timor-Leste	1994	5.8633
-TT	Timor-Leste	1995	5.9048
-TT	Timor-Leste	1996	5.9467
-TT	Timor-Leste	1997	5.9884
-TT	Timor-Leste	1998	6.0299
-TT	Timor-Leste	1999	6.5235
-TT	Timor-Leste	2000	7.0166
-TT	Timor-Leste	2001	7.5099
-TT	Timor-Leste	2002	7.4
-TT	Timor-Leste	2003	6.9999
-TT	Timor-Leste	2004	5.957
-TT	Timor-Leste	2005	5.8866
-TT	Timor-Leste	2006	5.8161
-TT	Timor-Leste	2007	5.7455
-TT	Timor-Leste	2008	5.6751
-TT	Timor-Leste	2009	5.5875
-TT	Timor-Leste	2010	5.5
-TT	Timor-Leste	2011	5.4099
-TT	Timor-Leste	2012	5.32
-TT	Timor-Leste	2013	5.22
-TT	Timor-Leste	2014	5.1101
-TT	Timor-Leste	2015	5.01
-TT	Timor-Leste	2016	4.9001
-TT	Timor-Leste	2017	4.7899
-TT	Timor-Leste	2018	4.67
-TT	Timor-Leste	2020	4.4401
+TT	Timor Leste	2036	2.856
+TT	Timor Leste	2021	4.324
+TT	Timor Leste	2022	4.208
+TT	Timor Leste	2023	4.092
+TT	Timor Leste	2024	3.9761
+TT	Timor Leste	2025	3.8601
+TT	Timor Leste	2026	3.7559
+TT	Timor Leste	2027	3.652
+TT	Timor Leste	2028	3.5481
+TT	Timor Leste	2029	3.444
+TT	Timor Leste	2030	3.34
+TT	Timor Leste	2031	3.256
+TT	Timor Leste	2032	3.172
+TT	Timor Leste	2033	3.088
+TT	Timor Leste	2034	3.004
+TT	Timor Leste	2035	2.92
+TT	Timor Leste	1991	5.7901
+TT	Timor Leste	2037	2.792
+TT	Timor Leste	2038	2.728
+TT	Timor Leste	2039	2.664
+TT	Timor Leste	2040	2.6
+TT	Timor Leste	2041	2.558
+TT	Timor Leste	2042	2.516
+TT	Timor Leste	2043	2.474
+TT	Timor Leste	2044	2.432
+TT	Timor Leste	2045	2.39
+TT	Timor Leste	2046	2.36
+TT	Timor Leste	2047	2.33
+TT	Timor Leste	2048	2.3
+TT	Timor Leste	2049	2.27
+TT	Timor Leste	2050	2.24
+TT	Timor Leste	2019	4.5599
+TT	Timor Leste	1990	5.7999
+TT	Timor Leste	1992	5.7801
+TT	Timor Leste	1993	5.8215
+TT	Timor Leste	1994	5.8633
+TT	Timor Leste	1995	5.9048
+TT	Timor Leste	1996	5.9467
+TT	Timor Leste	1997	5.9884
+TT	Timor Leste	1998	6.0299
+TT	Timor Leste	1999	6.5235
+TT	Timor Leste	2000	7.0166
+TT	Timor Leste	2001	7.5099
+TT	Timor Leste	2002	7.4
+TT	Timor Leste	2003	6.9999
+TT	Timor Leste	2004	5.957
+TT	Timor Leste	2005	5.8866
+TT	Timor Leste	2006	5.8161
+TT	Timor Leste	2007	5.7455
+TT	Timor Leste	2008	5.6751
+TT	Timor Leste	2009	5.5875
+TT	Timor Leste	2010	5.5
+TT	Timor Leste	2011	5.4099
+TT	Timor Leste	2012	5.32
+TT	Timor Leste	2013	5.22
+TT	Timor Leste	2014	5.1101
+TT	Timor Leste	2015	5.01
+TT	Timor Leste	2016	4.9001
+TT	Timor Leste	2017	4.7899
+TT	Timor Leste	2018	4.67
+TT	Timor Leste	2020	4.4401
 UV	Burkina Faso	2022	5.346
 UV	Burkina Faso	2031	4.702
 UV	Burkina Faso	2030	4.77
@@ -8891,83 +8891,83 @@ VM	Vietnam	2016	1.818
 VM	Vietnam	2017	1.806
 VM	Vietnam	2018	1.794
 VM	Vietnam	2020	1.77
-CG	Congo (Kinshasa)	2022	3.766
-CG	Congo (Kinshasa)	2031	2.926
-CG	Congo (Kinshasa)	2030	2.99
-CG	Congo (Kinshasa)	2029	3.078
-CG	Congo (Kinshasa)	2028	3.166
-CG	Congo (Kinshasa)	2027	3.254
-CG	Congo (Kinshasa)	2026	3.342
-CG	Congo (Kinshasa)	2025	3.43
-CG	Congo (Kinshasa)	2024	3.542
-CG	Congo (Kinshasa)	2023	3.654
-CG	Congo (Kinshasa)	2032	2.862
-CG	Congo (Kinshasa)	2021	3.878
-CG	Congo (Kinshasa)	2020	3.99
-CG	Congo (Kinshasa)	2019	4.124
-CG	Congo (Kinshasa)	2018	4.258
-CG	Congo (Kinshasa)	2017	4.392
-CG	Congo (Kinshasa)	2016	4.526
-CG	Congo (Kinshasa)	2015	4.66
-CG	Congo (Kinshasa)	2014	4.804
-CG	Congo (Kinshasa)	2013	4.948
-CG	Congo (Kinshasa)	2041	2.41
-CG	Congo (Kinshasa)	2050	2.19
-CG	Congo (Kinshasa)	2049	2.21
-CG	Congo (Kinshasa)	2048	2.23
-CG	Congo (Kinshasa)	2047	2.25
-CG	Congo (Kinshasa)	2046	2.27
-CG	Congo (Kinshasa)	2045	2.29
-CG	Congo (Kinshasa)	2044	2.32
-CG	Congo (Kinshasa)	2043	2.35
-CG	Congo (Kinshasa)	2042	2.38
-CG	Congo (Kinshasa)	1975	6.3712
-CG	Congo (Kinshasa)	2040	2.44
-CG	Congo (Kinshasa)	2039	2.486
-CG	Congo (Kinshasa)	2038	2.532
-CG	Congo (Kinshasa)	2037	2.578
-CG	Congo (Kinshasa)	2036	2.624
-CG	Congo (Kinshasa)	2035	2.67
-CG	Congo (Kinshasa)	2034	2.734
-CG	Congo (Kinshasa)	2033	2.798
-CG	Congo (Kinshasa)	1983	6.6635
-CG	Congo (Kinshasa)	1992	7.1475
-CG	Congo (Kinshasa)	1991	7.0888
-CG	Congo (Kinshasa)	1990	7.03
-CG	Congo (Kinshasa)	1989	6.964
-CG	Congo (Kinshasa)	1988	6.898
-CG	Congo (Kinshasa)	1987	6.832
-CG	Congo (Kinshasa)	1986	6.766
-CG	Congo (Kinshasa)	1985	6.7
-CG	Congo (Kinshasa)	1984	6.7
-CG	Congo (Kinshasa)	2011	5.236
-CG	Congo (Kinshasa)	1982	6.6269
-CG	Congo (Kinshasa)	1981	6.5904
-CG	Congo (Kinshasa)	1980	6.5538
-CG	Congo (Kinshasa)	1979	6.5173
-CG	Congo (Kinshasa)	1978	6.4808
-CG	Congo (Kinshasa)	1977	6.4442
-CG	Congo (Kinshasa)	1976	6.4077
-CG	Congo (Kinshasa)	1974	6.3346
-CG	Congo (Kinshasa)	1994	7.265
-CG	Congo (Kinshasa)	2012	5.092
-CG	Congo (Kinshasa)	2010	5.38
-CG	Congo (Kinshasa)	2009	5.524
-CG	Congo (Kinshasa)	2008	5.668
-CG	Congo (Kinshasa)	2007	5.812
-CG	Congo (Kinshasa)	2006	5.956
-CG	Congo (Kinshasa)	2005	6.1
-CG	Congo (Kinshasa)	2004	6.23
-CG	Congo (Kinshasa)	2003	6.36
-CG	Congo (Kinshasa)	2002	6.49
-CG	Congo (Kinshasa)	2001	6.5869
-CG	Congo (Kinshasa)	2000	6.6838
-CG	Congo (Kinshasa)	1999	6.7806
-CG	Congo (Kinshasa)	1998	6.8775
-CG	Congo (Kinshasa)	1997	7.0334
-CG	Congo (Kinshasa)	1996	7.15
-CG	Congo (Kinshasa)	1995	7.2075
-CG	Congo (Kinshasa)	1993	7.2063
+CG	Democratic Republic of the Congo	2022	3.766
+CG	Democratic Republic of the Congo	2031	2.926
+CG	Democratic Republic of the Congo	2030	2.99
+CG	Democratic Republic of the Congo	2029	3.078
+CG	Democratic Republic of the Congo	2028	3.166
+CG	Democratic Republic of the Congo	2027	3.254
+CG	Democratic Republic of the Congo	2026	3.342
+CG	Democratic Republic of the Congo	2025	3.43
+CG	Democratic Republic of the Congo	2024	3.542
+CG	Democratic Republic of the Congo	2023	3.654
+CG	Democratic Republic of the Congo	2032	2.862
+CG	Democratic Republic of the Congo	2021	3.878
+CG	Democratic Republic of the Congo	2020	3.99
+CG	Democratic Republic of the Congo	2019	4.124
+CG	Democratic Republic of the Congo	2018	4.258
+CG	Democratic Republic of the Congo	2017	4.392
+CG	Democratic Republic of the Congo	2016	4.526
+CG	Democratic Republic of the Congo	2015	4.66
+CG	Democratic Republic of the Congo	2014	4.804
+CG	Democratic Republic of the Congo	2013	4.948
+CG	Democratic Republic of the Congo	2041	2.41
+CG	Democratic Republic of the Congo	2050	2.19
+CG	Democratic Republic of the Congo	2049	2.21
+CG	Democratic Republic of the Congo	2048	2.23
+CG	Democratic Republic of the Congo	2047	2.25
+CG	Democratic Republic of the Congo	2046	2.27
+CG	Democratic Republic of the Congo	2045	2.29
+CG	Democratic Republic of the Congo	2044	2.32
+CG	Democratic Republic of the Congo	2043	2.35
+CG	Democratic Republic of the Congo	2042	2.38
+CG	Democratic Republic of the Congo	1975	6.3712
+CG	Democratic Republic of the Congo	2040	2.44
+CG	Democratic Republic of the Congo	2039	2.486
+CG	Democratic Republic of the Congo	2038	2.532
+CG	Democratic Republic of the Congo	2037	2.578
+CG	Democratic Republic of the Congo	2036	2.624
+CG	Democratic Republic of the Congo	2035	2.67
+CG	Democratic Republic of the Congo	2034	2.734
+CG	Democratic Republic of the Congo	2033	2.798
+CG	Democratic Republic of the Congo	1983	6.6635
+CG	Democratic Republic of the Congo	1992	7.1475
+CG	Democratic Republic of the Congo	1991	7.0888
+CG	Democratic Republic of the Congo	1990	7.03
+CG	Democratic Republic of the Congo	1989	6.964
+CG	Democratic Republic of the Congo	1988	6.898
+CG	Democratic Republic of the Congo	1987	6.832
+CG	Democratic Republic of the Congo	1986	6.766
+CG	Democratic Republic of the Congo	1985	6.7
+CG	Democratic Republic of the Congo	1984	6.7
+CG	Democratic Republic of the Congo	2011	5.236
+CG	Democratic Republic of the Congo	1982	6.6269
+CG	Democratic Republic of the Congo	1981	6.5904
+CG	Democratic Republic of the Congo	1980	6.5538
+CG	Democratic Republic of the Congo	1979	6.5173
+CG	Democratic Republic of the Congo	1978	6.4808
+CG	Democratic Republic of the Congo	1977	6.4442
+CG	Democratic Republic of the Congo	1976	6.4077
+CG	Democratic Republic of the Congo	1974	6.3346
+CG	Democratic Republic of the Congo	1994	7.265
+CG	Democratic Republic of the Congo	2012	5.092
+CG	Democratic Republic of the Congo	2010	5.38
+CG	Democratic Republic of the Congo	2009	5.524
+CG	Democratic Republic of the Congo	2008	5.668
+CG	Democratic Republic of the Congo	2007	5.812
+CG	Democratic Republic of the Congo	2006	5.956
+CG	Democratic Republic of the Congo	2005	6.1
+CG	Democratic Republic of the Congo	2004	6.23
+CG	Democratic Republic of the Congo	2003	6.36
+CG	Democratic Republic of the Congo	2002	6.49
+CG	Democratic Republic of the Congo	2001	6.5869
+CG	Democratic Republic of the Congo	2000	6.6838
+CG	Democratic Republic of the Congo	1999	6.7806
+CG	Democratic Republic of the Congo	1998	6.8775
+CG	Democratic Republic of the Congo	1997	7.0334
+CG	Democratic Republic of the Congo	1996	7.15
+CG	Democratic Republic of the Congo	1995	7.2075
+CG	Democratic Republic of the Congo	1993	7.2063
 LU	Luxembourg	2036	1.6645
 LU	Luxembourg	2022	1.6291
 LU	Luxembourg	2023	1.6316
@@ -9611,125 +9611,125 @@ EI	Ireland	2019	1.945
 EI	Ireland	2020	1.9356
 EI	Ireland	2021	1.9261
 EI	Ireland	2023	1.9016
-VQ	Virgin Islands U.S.	2038	1.7
-VQ	Virgin Islands U.S.	2026	1.7
-VQ	Virgin Islands U.S.	2027	1.7
-VQ	Virgin Islands U.S.	2028	1.7
-VQ	Virgin Islands U.S.	2029	1.7
-VQ	Virgin Islands U.S.	2030	1.7
-VQ	Virgin Islands U.S.	2031	1.7
-VQ	Virgin Islands U.S.	2032	1.7
-VQ	Virgin Islands U.S.	2033	1.7
-VQ	Virgin Islands U.S.	2034	1.7
-VQ	Virgin Islands U.S.	2035	1.7
-VQ	Virgin Islands U.S.	2036	1.7
-VQ	Virgin Islands U.S.	2037	1.7
-VQ	Virgin Islands U.S.	2001	1.8997
-VQ	Virgin Islands U.S.	2039	1.7
-VQ	Virgin Islands U.S.	2040	1.7
-VQ	Virgin Islands U.S.	2041	1.7
-VQ	Virgin Islands U.S.	2042	1.7
-VQ	Virgin Islands U.S.	2043	1.7
-VQ	Virgin Islands U.S.	2044	1.7
-VQ	Virgin Islands U.S.	2045	1.7
-VQ	Virgin Islands U.S.	2046	1.7
-VQ	Virgin Islands U.S.	2047	1.7
-VQ	Virgin Islands U.S.	2048	1.7
-VQ	Virgin Islands U.S.	2049	1.7
-VQ	Virgin Islands U.S.	2050	1.7
-VQ	Virgin Islands U.S.	2024	1.702
-VQ	Virgin Islands U.S.	2000	2.0553
-VQ	Virgin Islands U.S.	2002	2.1893
-VQ	Virgin Islands U.S.	2003	2.0525
-VQ	Virgin Islands U.S.	2004	2.1468
-VQ	Virgin Islands U.S.	2005	2.2254
-VQ	Virgin Islands U.S.	2006	2.0196
-VQ	Virgin Islands U.S.	2007	1.9672
-VQ	Virgin Islands U.S.	2008	1.9148
-VQ	Virgin Islands U.S.	2009	1.8624
-VQ	Virgin Islands U.S.	2010	1.81
-VQ	Virgin Islands U.S.	2011	1.796
-VQ	Virgin Islands U.S.	2012	1.782
-VQ	Virgin Islands U.S.	2013	1.768
-VQ	Virgin Islands U.S.	2014	1.754
-VQ	Virgin Islands U.S.	2015	1.74
-VQ	Virgin Islands U.S.	2016	1.734
-VQ	Virgin Islands U.S.	2017	1.728
-VQ	Virgin Islands U.S.	2018	1.722
-VQ	Virgin Islands U.S.	2019	1.716
-VQ	Virgin Islands U.S.	2020	1.71
-VQ	Virgin Islands U.S.	2021	1.708
-VQ	Virgin Islands U.S.	2022	1.706
-VQ	Virgin Islands U.S.	2023	1.704
-VQ	Virgin Islands U.S.	2025	1.7
-GA	Gambia The	2025	2.8099
-GA	Gambia The	2033	2.4161
-GA	Gambia The	2032	2.4539
-GA	Gambia The	2031	2.492
-GA	Gambia The	2030	2.53
-GA	Gambia The	2029	2.5858
-GA	Gambia The	2028	2.642
-GA	Gambia The	2027	2.698
-GA	Gambia The	2026	2.7539
-GA	Gambia The	2034	2.378
-GA	Gambia The	2024	2.8901
-GA	Gambia The	2023	2.9702
-GA	Gambia The	2022	3.0499
-GA	Gambia The	2021	3.1302
-GA	Gambia The	2020	3.2099
-GA	Gambia The	2019	3.3139
-GA	Gambia The	2018	3.4181
-GA	Gambia The	2042	2.1779
-GA	Gambia The	2050	2.08
-GA	Gambia The	2049	2.0899
-GA	Gambia The	2048	2.1001
-GA	Gambia The	2047	2.11
-GA	Gambia The	2046	2.1201
-GA	Gambia The	2045	2.13
-GA	Gambia The	2044	2.146
-GA	Gambia The	2043	2.162
-GA	Gambia The	1984	6.7756
-GA	Gambia The	2041	2.194
-GA	Gambia The	2040	2.21
-GA	Gambia The	2039	2.2361
-GA	Gambia The	2038	2.2618
-GA	Gambia The	2037	2.288
-GA	Gambia The	2036	2.314
-GA	Gambia The	2035	2.3399
-GA	Gambia The	1991	6.4773
-GA	Gambia The	1999	5.7011
-GA	Gambia The	1998	5.816
-GA	Gambia The	1997	5.9317
-GA	Gambia The	1996	6.0465
-GA	Gambia The	1995	6.1617
-GA	Gambia The	1994	6.2765
-GA	Gambia The	1993	6.3917
-GA	Gambia The	1992	6.4345
-GA	Gambia The	2016	3.6262
-GA	Gambia The	1990	6.5203
-GA	Gambia The	1989	6.5625
-GA	Gambia The	1988	6.6049
-GA	Gambia The	1987	6.648
-GA	Gambia The	1986	6.6907
-GA	Gambia The	1985	6.7328
-GA	Gambia The	1983	6.8185
-GA	Gambia The	2001	5.4703
-GA	Gambia The	2017	3.5219
-GA	Gambia The	2015	3.7303
-GA	Gambia The	2014	3.8541
-GA	Gambia The	2013	3.9778
-GA	Gambia The	2012	4.1017
-GA	Gambia The	2011	4.2256
-GA	Gambia The	2010	4.3497
-GA	Gambia The	2009	4.482
-GA	Gambia The	2008	4.6144
-GA	Gambia The	2007	4.7462
-GA	Gambia The	2006	4.8784
-GA	Gambia The	2005	5.0101
-GA	Gambia The	2004	5.1249
-GA	Gambia The	2003	5.2399
-GA	Gambia The	2002	5.3554
-GA	Gambia The	2000	5.5856
+VQ	U.S. Virgin Islands	2038	1.7
+VQ	U.S. Virgin Islands	2026	1.7
+VQ	U.S. Virgin Islands	2027	1.7
+VQ	U.S. Virgin Islands	2028	1.7
+VQ	U.S. Virgin Islands	2029	1.7
+VQ	U.S. Virgin Islands	2030	1.7
+VQ	U.S. Virgin Islands	2031	1.7
+VQ	U.S. Virgin Islands	2032	1.7
+VQ	U.S. Virgin Islands	2033	1.7
+VQ	U.S. Virgin Islands	2034	1.7
+VQ	U.S. Virgin Islands	2035	1.7
+VQ	U.S. Virgin Islands	2036	1.7
+VQ	U.S. Virgin Islands	2037	1.7
+VQ	U.S. Virgin Islands	2001	1.8997
+VQ	U.S. Virgin Islands	2039	1.7
+VQ	U.S. Virgin Islands	2040	1.7
+VQ	U.S. Virgin Islands	2041	1.7
+VQ	U.S. Virgin Islands	2042	1.7
+VQ	U.S. Virgin Islands	2043	1.7
+VQ	U.S. Virgin Islands	2044	1.7
+VQ	U.S. Virgin Islands	2045	1.7
+VQ	U.S. Virgin Islands	2046	1.7
+VQ	U.S. Virgin Islands	2047	1.7
+VQ	U.S. Virgin Islands	2048	1.7
+VQ	U.S. Virgin Islands	2049	1.7
+VQ	U.S. Virgin Islands	2050	1.7
+VQ	U.S. Virgin Islands	2024	1.702
+VQ	U.S. Virgin Islands	2000	2.0553
+VQ	U.S. Virgin Islands	2002	2.1893
+VQ	U.S. Virgin Islands	2003	2.0525
+VQ	U.S. Virgin Islands	2004	2.1468
+VQ	U.S. Virgin Islands	2005	2.2254
+VQ	U.S. Virgin Islands	2006	2.0196
+VQ	U.S. Virgin Islands	2007	1.9672
+VQ	U.S. Virgin Islands	2008	1.9148
+VQ	U.S. Virgin Islands	2009	1.8624
+VQ	U.S. Virgin Islands	2010	1.81
+VQ	U.S. Virgin Islands	2011	1.796
+VQ	U.S. Virgin Islands	2012	1.782
+VQ	U.S. Virgin Islands	2013	1.768
+VQ	U.S. Virgin Islands	2014	1.754
+VQ	U.S. Virgin Islands	2015	1.74
+VQ	U.S. Virgin Islands	2016	1.734
+VQ	U.S. Virgin Islands	2017	1.728
+VQ	U.S. Virgin Islands	2018	1.722
+VQ	U.S. Virgin Islands	2019	1.716
+VQ	U.S. Virgin Islands	2020	1.71
+VQ	U.S. Virgin Islands	2021	1.708
+VQ	U.S. Virgin Islands	2022	1.706
+VQ	U.S. Virgin Islands	2023	1.704
+VQ	U.S. Virgin Islands	2025	1.7
+GA	Gambia	2025	2.8099
+GA	Gambia	2033	2.4161
+GA	Gambia	2032	2.4539
+GA	Gambia	2031	2.492
+GA	Gambia	2030	2.53
+GA	Gambia	2029	2.5858
+GA	Gambia	2028	2.642
+GA	Gambia	2027	2.698
+GA	Gambia	2026	2.7539
+GA	Gambia	2034	2.378
+GA	Gambia	2024	2.8901
+GA	Gambia	2023	2.9702
+GA	Gambia	2022	3.0499
+GA	Gambia	2021	3.1302
+GA	Gambia	2020	3.2099
+GA	Gambia	2019	3.3139
+GA	Gambia	2018	3.4181
+GA	Gambia	2042	2.1779
+GA	Gambia	2050	2.08
+GA	Gambia	2049	2.0899
+GA	Gambia	2048	2.1001
+GA	Gambia	2047	2.11
+GA	Gambia	2046	2.1201
+GA	Gambia	2045	2.13
+GA	Gambia	2044	2.146
+GA	Gambia	2043	2.162
+GA	Gambia	1984	6.7756
+GA	Gambia	2041	2.194
+GA	Gambia	2040	2.21
+GA	Gambia	2039	2.2361
+GA	Gambia	2038	2.2618
+GA	Gambia	2037	2.288
+GA	Gambia	2036	2.314
+GA	Gambia	2035	2.3399
+GA	Gambia	1991	6.4773
+GA	Gambia	1999	5.7011
+GA	Gambia	1998	5.816
+GA	Gambia	1997	5.9317
+GA	Gambia	1996	6.0465
+GA	Gambia	1995	6.1617
+GA	Gambia	1994	6.2765
+GA	Gambia	1993	6.3917
+GA	Gambia	1992	6.4345
+GA	Gambia	2016	3.6262
+GA	Gambia	1990	6.5203
+GA	Gambia	1989	6.5625
+GA	Gambia	1988	6.6049
+GA	Gambia	1987	6.648
+GA	Gambia	1986	6.6907
+GA	Gambia	1985	6.7328
+GA	Gambia	1983	6.8185
+GA	Gambia	2001	5.4703
+GA	Gambia	2017	3.5219
+GA	Gambia	2015	3.7303
+GA	Gambia	2014	3.8541
+GA	Gambia	2013	3.9778
+GA	Gambia	2012	4.1017
+GA	Gambia	2011	4.2256
+GA	Gambia	2010	4.3497
+GA	Gambia	2009	4.482
+GA	Gambia	2008	4.6144
+GA	Gambia	2007	4.7462
+GA	Gambia	2006	4.8784
+GA	Gambia	2005	5.0101
+GA	Gambia	2004	5.1249
+GA	Gambia	2003	5.2399
+GA	Gambia	2002	5.3554
+GA	Gambia	2000	5.5856
 NU	Nicaragua	2021	1.808
 NU	Nicaragua	2030	1.73
 NU	Nicaragua	2029	1.736
@@ -10536,83 +10536,83 @@ SU	Sudan	2025	2.82
 SU	Sudan	2026	2.762
 SU	Sudan	2027	2.704
 SU	Sudan	2029	2.588
-CF	Congo (Brazzaville)	2022	4.362
-CF	Congo (Brazzaville)	2031	3.966
-CF	Congo (Brazzaville)	2030	4.01
-CF	Congo (Brazzaville)	2029	4.054
-CF	Congo (Brazzaville)	2028	4.098
-CF	Congo (Brazzaville)	2027	4.142
-CF	Congo (Brazzaville)	2026	4.186
-CF	Congo (Brazzaville)	2025	4.23
-CF	Congo (Brazzaville)	2024	4.274
-CF	Congo (Brazzaville)	2023	4.318
-CF	Congo (Brazzaville)	2032	3.922
-CF	Congo (Brazzaville)	2021	4.406
-CF	Congo (Brazzaville)	2020	4.45
-CF	Congo (Brazzaville)	2019	4.496
-CF	Congo (Brazzaville)	2018	4.542
-CF	Congo (Brazzaville)	2017	4.588
-CF	Congo (Brazzaville)	2016	4.634
-CF	Congo (Brazzaville)	2015	4.68
-CF	Congo (Brazzaville)	2014	4.725
-CF	Congo (Brazzaville)	2013	4.77
-CF	Congo (Brazzaville)	2041	3.552
-CF	Congo (Brazzaville)	2050	3.22
-CF	Congo (Brazzaville)	2049	3.256
-CF	Congo (Brazzaville)	2048	3.292
-CF	Congo (Brazzaville)	2047	3.328
-CF	Congo (Brazzaville)	2046	3.364
-CF	Congo (Brazzaville)	2045	3.4
-CF	Congo (Brazzaville)	2044	3.438
-CF	Congo (Brazzaville)	2043	3.476
-CF	Congo (Brazzaville)	2042	3.514
-CF	Congo (Brazzaville)	1975	6.192
-CF	Congo (Brazzaville)	2040	3.59
-CF	Congo (Brazzaville)	2039	3.63
-CF	Congo (Brazzaville)	2038	3.67
-CF	Congo (Brazzaville)	2037	3.71
-CF	Congo (Brazzaville)	2036	3.75
-CF	Congo (Brazzaville)	2035	3.79
-CF	Congo (Brazzaville)	2034	3.834
-CF	Congo (Brazzaville)	2033	3.878
-CF	Congo (Brazzaville)	1983	5.3712
-CF	Congo (Brazzaville)	1992	5.1587
-CF	Congo (Brazzaville)	1991	5.1725
-CF	Congo (Brazzaville)	1990	5.1862
-CF	Congo (Brazzaville)	1989	5.1999
-CF	Congo (Brazzaville)	1988	5.2137
-CF	Congo (Brazzaville)	1987	5.2274
-CF	Congo (Brazzaville)	1986	5.2411
-CF	Congo (Brazzaville)	1985	5.2549
-CF	Congo (Brazzaville)	1984	5.2686
-CF	Congo (Brazzaville)	2011	4.86
-CF	Congo (Brazzaville)	1982	5.4738
-CF	Congo (Brazzaville)	1981	5.5764
-CF	Congo (Brazzaville)	1980	5.679
-CF	Congo (Brazzaville)	1979	5.7816
-CF	Congo (Brazzaville)	1978	5.8842
-CF	Congo (Brazzaville)	1977	5.9868
-CF	Congo (Brazzaville)	1976	6.0894
-CF	Congo (Brazzaville)	1974	6.2946
-CF	Congo (Brazzaville)	1994	5.062
-CF	Congo (Brazzaville)	2012	4.815
-CF	Congo (Brazzaville)	2010	4.905
-CF	Congo (Brazzaville)	2009	4.95
-CF	Congo (Brazzaville)	2008	4.91
-CF	Congo (Brazzaville)	2007	4.87
-CF	Congo (Brazzaville)	2006	4.83
-CF	Congo (Brazzaville)	2005	4.79
-CF	Congo (Brazzaville)	2004	4.75
-CF	Congo (Brazzaville)	2003	4.7467
-CF	Congo (Brazzaville)	2002	4.7433
-CF	Congo (Brazzaville)	2001	4.74
-CF	Congo (Brazzaville)	2000	4.7367
-CF	Congo (Brazzaville)	1999	4.7333
-CF	Congo (Brazzaville)	1998	4.73
-CF	Congo (Brazzaville)	1997	4.813
-CF	Congo (Brazzaville)	1996	4.896
-CF	Congo (Brazzaville)	1995	4.979
-CF	Congo (Brazzaville)	1993	5.145
+CF	Democratic Republic of the Congo	2022	4.362
+CF	Democratic Republic of the Congo	2031	3.966
+CF	Democratic Republic of the Congo	2030	4.01
+CF	Democratic Republic of the Congo	2029	4.054
+CF	Democratic Republic of the Congo	2028	4.098
+CF	Democratic Republic of the Congo	2027	4.142
+CF	Democratic Republic of the Congo	2026	4.186
+CF	Democratic Republic of the Congo	2025	4.23
+CF	Democratic Republic of the Congo	2024	4.274
+CF	Democratic Republic of the Congo	2023	4.318
+CF	Democratic Republic of the Congo	2032	3.922
+CF	Democratic Republic of the Congo	2021	4.406
+CF	Democratic Republic of the Congo	2020	4.45
+CF	Democratic Republic of the Congo	2019	4.496
+CF	Democratic Republic of the Congo	2018	4.542
+CF	Democratic Republic of the Congo	2017	4.588
+CF	Democratic Republic of the Congo	2016	4.634
+CF	Democratic Republic of the Congo	2015	4.68
+CF	Democratic Republic of the Congo	2014	4.725
+CF	Democratic Republic of the Congo	2013	4.77
+CF	Democratic Republic of the Congo	2041	3.552
+CF	Democratic Republic of the Congo	2050	3.22
+CF	Democratic Republic of the Congo	2049	3.256
+CF	Democratic Republic of the Congo	2048	3.292
+CF	Democratic Republic of the Congo	2047	3.328
+CF	Democratic Republic of the Congo	2046	3.364
+CF	Democratic Republic of the Congo	2045	3.4
+CF	Democratic Republic of the Congo	2044	3.438
+CF	Democratic Republic of the Congo	2043	3.476
+CF	Democratic Republic of the Congo	2042	3.514
+CF	Democratic Republic of the Congo	1975	6.192
+CF	Democratic Republic of the Congo	2040	3.59
+CF	Democratic Republic of the Congo	2039	3.63
+CF	Democratic Republic of the Congo	2038	3.67
+CF	Democratic Republic of the Congo	2037	3.71
+CF	Democratic Republic of the Congo	2036	3.75
+CF	Democratic Republic of the Congo	2035	3.79
+CF	Democratic Republic of the Congo	2034	3.834
+CF	Democratic Republic of the Congo	2033	3.878
+CF	Democratic Republic of the Congo	1983	5.3712
+CF	Democratic Republic of the Congo	1992	5.1587
+CF	Democratic Republic of the Congo	1991	5.1725
+CF	Democratic Republic of the Congo	1990	5.1862
+CF	Democratic Republic of the Congo	1989	5.1999
+CF	Democratic Republic of the Congo	1988	5.2137
+CF	Democratic Republic of the Congo	1987	5.2274
+CF	Democratic Republic of the Congo	1986	5.2411
+CF	Democratic Republic of the Congo	1985	5.2549
+CF	Democratic Republic of the Congo	1984	5.2686
+CF	Democratic Republic of the Congo	2011	4.86
+CF	Democratic Republic of the Congo	1982	5.4738
+CF	Democratic Republic of the Congo	1981	5.5764
+CF	Democratic Republic of the Congo	1980	5.679
+CF	Democratic Republic of the Congo	1979	5.7816
+CF	Democratic Republic of the Congo	1978	5.8842
+CF	Democratic Republic of the Congo	1977	5.9868
+CF	Democratic Republic of the Congo	1976	6.0894
+CF	Democratic Republic of the Congo	1974	6.2946
+CF	Democratic Republic of the Congo	1994	5.062
+CF	Democratic Republic of the Congo	2012	4.815
+CF	Democratic Republic of the Congo	2010	4.905
+CF	Democratic Republic of the Congo	2009	4.95
+CF	Democratic Republic of the Congo	2008	4.91
+CF	Democratic Republic of the Congo	2007	4.87
+CF	Democratic Republic of the Congo	2006	4.83
+CF	Democratic Republic of the Congo	2005	4.79
+CF	Democratic Republic of the Congo	2004	4.75
+CF	Democratic Republic of the Congo	2003	4.7467
+CF	Democratic Republic of the Congo	2002	4.7433
+CF	Democratic Republic of the Congo	2001	4.74
+CF	Democratic Republic of the Congo	2000	4.7367
+CF	Democratic Republic of the Congo	1999	4.7333
+CF	Democratic Republic of the Congo	1998	4.73
+CF	Democratic Republic of the Congo	1997	4.813
+CF	Democratic Republic of the Congo	1996	4.896
+CF	Democratic Republic of the Congo	1995	4.979
+CF	Democratic Republic of the Congo	1993	5.145
 GQ	Guam	2038	1.874
 GQ	Guam	2026	2.06
 GQ	Guam	2027	2.04
@@ -11426,77 +11426,77 @@ BB	Barbados	2002	1.6764
 BB	Barbados	2001	1.6618
 BB	Barbados	2000	1.6492
 BB	Barbados	1998	1.6398
-CV	Cabo Verde	2024	2.096
-CV	Cabo Verde	2032	2.032
-CV	Cabo Verde	2031	2.036
-CV	Cabo Verde	2030	2.04
-CV	Cabo Verde	2029	2.048
-CV	Cabo Verde	2028	2.056
-CV	Cabo Verde	2027	2.064
-CV	Cabo Verde	2026	2.072
-CV	Cabo Verde	2025	2.08
-CV	Cabo Verde	2033	2.028
-CV	Cabo Verde	2023	2.112
-CV	Cabo Verde	2022	2.128
-CV	Cabo Verde	2021	2.144
-CV	Cabo Verde	2020	2.16
-CV	Cabo Verde	2019	2.186
-CV	Cabo Verde	2018	2.212
-CV	Cabo Verde	2017	2.238
-CV	Cabo Verde	2016	2.264
-CV	Cabo Verde	2042	2.01
-CV	Cabo Verde	2050	2
-CV	Cabo Verde	2049	2.002
-CV	Cabo Verde	2048	2.004
-CV	Cabo Verde	2047	2.006
-CV	Cabo Verde	2046	2.008
-CV	Cabo Verde	2045	2.01
-CV	Cabo Verde	2044	2.01
-CV	Cabo Verde	2043	2.01
-CV	Cabo Verde	1981	6.8367
-CV	Cabo Verde	2041	2.01
-CV	Cabo Verde	2040	2.01
-CV	Cabo Verde	2039	2.012
-CV	Cabo Verde	2038	2.014
-CV	Cabo Verde	2037	2.016
-CV	Cabo Verde	2036	2.018
-CV	Cabo Verde	2035	2.02
-CV	Cabo Verde	2034	2.024
-CV	Cabo Verde	1989	5.5506
-CV	Cabo Verde	1997	4.1518
-CV	Cabo Verde	1996	4.3407
-CV	Cabo Verde	1995	4.5296
-CV	Cabo Verde	1994	4.7186
-CV	Cabo Verde	1993	4.9075
-CV	Cabo Verde	1992	5.0683
-CV	Cabo Verde	1991	5.229
-CV	Cabo Verde	1990	5.3898
-CV	Cabo Verde	2014	2.34
-CV	Cabo Verde	1988	5.7113
-CV	Cabo Verde	1987	5.8721
-CV	Cabo Verde	1986	6.0329
-CV	Cabo Verde	1985	6.1937
-CV	Cabo Verde	1984	6.3544
-CV	Cabo Verde	1983	6.5152
-CV	Cabo Verde	1982	6.676
-CV	Cabo Verde	1980	6.9975
-CV	Cabo Verde	1999	3.7739
-CV	Cabo Verde	2015	2.29
-CV	Cabo Verde	2013	2.39
-CV	Cabo Verde	2012	2.44
-CV	Cabo Verde	2011	2.49
-CV	Cabo Verde	2010	2.54
-CV	Cabo Verde	2009	2.624
-CV	Cabo Verde	2008	2.708
-CV	Cabo Verde	2007	2.792
-CV	Cabo Verde	2006	2.876
-CV	Cabo Verde	2005	2.96
-CV	Cabo Verde	2004	3.085
-CV	Cabo Verde	2003	3.21
-CV	Cabo Verde	2002	3.335
-CV	Cabo Verde	2001	3.46
-CV	Cabo Verde	2000	3.585
-CV	Cabo Verde	1998	3.9629
+CV	Cape Verde	2024	2.096
+CV	Cape Verde	2032	2.032
+CV	Cape Verde	2031	2.036
+CV	Cape Verde	2030	2.04
+CV	Cape Verde	2029	2.048
+CV	Cape Verde	2028	2.056
+CV	Cape Verde	2027	2.064
+CV	Cape Verde	2026	2.072
+CV	Cape Verde	2025	2.08
+CV	Cape Verde	2033	2.028
+CV	Cape Verde	2023	2.112
+CV	Cape Verde	2022	2.128
+CV	Cape Verde	2021	2.144
+CV	Cape Verde	2020	2.16
+CV	Cape Verde	2019	2.186
+CV	Cape Verde	2018	2.212
+CV	Cape Verde	2017	2.238
+CV	Cape Verde	2016	2.264
+CV	Cape Verde	2042	2.01
+CV	Cape Verde	2050	2
+CV	Cape Verde	2049	2.002
+CV	Cape Verde	2048	2.004
+CV	Cape Verde	2047	2.006
+CV	Cape Verde	2046	2.008
+CV	Cape Verde	2045	2.01
+CV	Cape Verde	2044	2.01
+CV	Cape Verde	2043	2.01
+CV	Cape Verde	1981	6.8367
+CV	Cape Verde	2041	2.01
+CV	Cape Verde	2040	2.01
+CV	Cape Verde	2039	2.012
+CV	Cape Verde	2038	2.014
+CV	Cape Verde	2037	2.016
+CV	Cape Verde	2036	2.018
+CV	Cape Verde	2035	2.02
+CV	Cape Verde	2034	2.024
+CV	Cape Verde	1989	5.5506
+CV	Cape Verde	1997	4.1518
+CV	Cape Verde	1996	4.3407
+CV	Cape Verde	1995	4.5296
+CV	Cape Verde	1994	4.7186
+CV	Cape Verde	1993	4.9075
+CV	Cape Verde	1992	5.0683
+CV	Cape Verde	1991	5.229
+CV	Cape Verde	1990	5.3898
+CV	Cape Verde	2014	2.34
+CV	Cape Verde	1988	5.7113
+CV	Cape Verde	1987	5.8721
+CV	Cape Verde	1986	6.0329
+CV	Cape Verde	1985	6.1937
+CV	Cape Verde	1984	6.3544
+CV	Cape Verde	1983	6.5152
+CV	Cape Verde	1982	6.676
+CV	Cape Verde	1980	6.9975
+CV	Cape Verde	1999	3.7739
+CV	Cape Verde	2015	2.29
+CV	Cape Verde	2013	2.39
+CV	Cape Verde	2012	2.44
+CV	Cape Verde	2011	2.49
+CV	Cape Verde	2010	2.54
+CV	Cape Verde	2009	2.624
+CV	Cape Verde	2008	2.708
+CV	Cape Verde	2007	2.792
+CV	Cape Verde	2006	2.876
+CV	Cape Verde	2005	2.96
+CV	Cape Verde	2004	3.085
+CV	Cape Verde	2003	3.21
+CV	Cape Verde	2002	3.335
+CV	Cape Verde	2001	3.46
+CV	Cape Verde	2000	3.585
+CV	Cape Verde	1998	3.9629
 SM	San Marino	2037	1.6231
 SM	San Marino	2024	1.5462
 SM	San Marino	2025	1.5521
@@ -13771,84 +13771,84 @@ JA	Japan	2016	1.4093
 JA	Japan	2017	1.4149
 JA	Japan	2018	1.4205
 JA	Japan	2020	1.4317
-BM	Burma	2022	2.074
-BM	Burma	2031	2.026
-BM	Burma	2030	2.03
-BM	Burma	2029	2.034
-BM	Burma	2028	2.038
-BM	Burma	2027	2.042
-BM	Burma	2026	2.046
-BM	Burma	2025	2.05
-BM	Burma	2024	2.058
-BM	Burma	2023	2.066
-BM	Burma	2032	2.022
-BM	Burma	2021	2.082
-BM	Burma	2020	2.09
-BM	Burma	2019	2.104
-BM	Burma	2018	2.118
-BM	Burma	2017	2.132
-BM	Burma	2016	2.146
-BM	Burma	2015	2.16
-BM	Burma	2014	2.184
-BM	Burma	2013	2.208
-BM	Burma	2041	2.008
-BM	Burma	2050	1.9727
-BM	Burma	2049	1.9782
-BM	Burma	2048	1.9836
-BM	Burma	2047	1.9891
-BM	Burma	2046	1.9945
-BM	Burma	2045	2
-BM	Burma	2044	2.002
-BM	Burma	2043	2.004
-BM	Burma	2042	2.006
-BM	Burma	1974	5.3682
-BM	Burma	2040	2.01
-BM	Burma	2039	2.01
-BM	Burma	2038	2.01
-BM	Burma	2037	2.01
-BM	Burma	2036	2.01
-BM	Burma	2035	2.01
-BM	Burma	2034	2.014
-BM	Burma	2033	2.018
-BM	Burma	1983	4.727
-BM	Burma	1992	3.65
-BM	Burma	1991	3.77
-BM	Burma	1990	3.89
-BM	Burma	1989	4.02
-BM	Burma	1988	4.14
-BM	Burma	1987	4.26
-BM	Burma	1986	4.39
-BM	Burma	1985	4.5
-BM	Burma	1984	4.6135
-BM	Burma	2011	2.256
-BM	Burma	1982	4.7983
-BM	Burma	1981	4.8695
-BM	Burma	1980	4.9407
-BM	Burma	1979	5.012
-BM	Burma	1978	5.0832
-BM	Burma	1977	5.1545
-BM	Burma	1976	5.2257
-BM	Burma	1975	5.297
-BM	Burma	1973	5.4395
-BM	Burma	1994	3.42
-BM	Burma	2012	2.232
-BM	Burma	2010	2.28
-BM	Burma	2009	2.32
-BM	Burma	2008	2.35
-BM	Burma	2007	2.4
-BM	Burma	2006	2.44
-BM	Burma	2005	2.49
-BM	Burma	2004	2.55
-BM	Burma	2003	2.61
-BM	Burma	2002	2.68
-BM	Burma	2001	2.75
-BM	Burma	2000	2.83
-BM	Burma	1999	2.91
-BM	Burma	1998	3
-BM	Burma	1997	3.1
-BM	Burma	1996	3.2
-BM	Burma	1995	3.31
-BM	Burma	1993	3.53
+BM	Myanmar	2022	2.074
+BM	Myanmar	2031	2.026
+BM	Myanmar	2030	2.03
+BM	Myanmar	2029	2.034
+BM	Myanmar	2028	2.038
+BM	Myanmar	2027	2.042
+BM	Myanmar	2026	2.046
+BM	Myanmar	2025	2.05
+BM	Myanmar	2024	2.058
+BM	Myanmar	2023	2.066
+BM	Myanmar	2032	2.022
+BM	Myanmar	2021	2.082
+BM	Myanmar	2020	2.09
+BM	Myanmar	2019	2.104
+BM	Myanmar	2018	2.118
+BM	Myanmar	2017	2.132
+BM	Myanmar	2016	2.146
+BM	Myanmar	2015	2.16
+BM	Myanmar	2014	2.184
+BM	Myanmar	2013	2.208
+BM	Myanmar	2041	2.008
+BM	Myanmar	2050	1.9727
+BM	Myanmar	2049	1.9782
+BM	Myanmar	2048	1.9836
+BM	Myanmar	2047	1.9891
+BM	Myanmar	2046	1.9945
+BM	Myanmar	2045	2
+BM	Myanmar	2044	2.002
+BM	Myanmar	2043	2.004
+BM	Myanmar	2042	2.006
+BM	Myanmar	1974	5.3682
+BM	Myanmar	2040	2.01
+BM	Myanmar	2039	2.01
+BM	Myanmar	2038	2.01
+BM	Myanmar	2037	2.01
+BM	Myanmar	2036	2.01
+BM	Myanmar	2035	2.01
+BM	Myanmar	2034	2.014
+BM	Myanmar	2033	2.018
+BM	Myanmar	1983	4.727
+BM	Myanmar	1992	3.65
+BM	Myanmar	1991	3.77
+BM	Myanmar	1990	3.89
+BM	Myanmar	1989	4.02
+BM	Myanmar	1988	4.14
+BM	Myanmar	1987	4.26
+BM	Myanmar	1986	4.39
+BM	Myanmar	1985	4.5
+BM	Myanmar	1984	4.6135
+BM	Myanmar	2011	2.256
+BM	Myanmar	1982	4.7983
+BM	Myanmar	1981	4.8695
+BM	Myanmar	1980	4.9407
+BM	Myanmar	1979	5.012
+BM	Myanmar	1978	5.0832
+BM	Myanmar	1977	5.1545
+BM	Myanmar	1976	5.2257
+BM	Myanmar	1975	5.297
+BM	Myanmar	1973	5.4395
+BM	Myanmar	1994	3.42
+BM	Myanmar	2012	2.232
+BM	Myanmar	2010	2.28
+BM	Myanmar	2009	2.32
+BM	Myanmar	2008	2.35
+BM	Myanmar	2007	2.4
+BM	Myanmar	2006	2.44
+BM	Myanmar	2005	2.49
+BM	Myanmar	2004	2.55
+BM	Myanmar	2003	2.61
+BM	Myanmar	2002	2.68
+BM	Myanmar	2001	2.75
+BM	Myanmar	2000	2.83
+BM	Myanmar	1999	2.91
+BM	Myanmar	1998	3
+BM	Myanmar	1997	3.1
+BM	Myanmar	1996	3.2
+BM	Myanmar	1995	3.31
+BM	Myanmar	1993	3.53
 GV	Guinea	2015	4.88
 GV	Guinea	2026	4.262
 GV	Guinea	2025	4.32
@@ -14022,60 +14022,60 @@ HO	Honduras	1997	4.65
 HO	Honduras	1996	4.7466
 HO	Honduras	1995	4.8433
 HO	Honduras	1993	5.025
-WE	West Bank	2038	2.342
-WE	West Bank	2025	2.8
-WE	West Bank	2026	2.756
-WE	West Bank	2027	2.712
-WE	West Bank	2028	2.668
-WE	West Bank	2029	2.624
-WE	West Bank	2030	2.58
-WE	West Bank	2031	2.548
-WE	West Bank	2032	2.516
-WE	West Bank	2033	2.484
-WE	West Bank	2034	2.452
-WE	West Bank	2035	2.42
-WE	West Bank	2036	2.394
-WE	West Bank	2037	2.368
-WE	West Bank	1998	4.743
-WE	West Bank	2039	2.316
-WE	West Bank	2040	2.29
-WE	West Bank	2041	2.272
-WE	West Bank	2042	2.254
-WE	West Bank	2043	2.236
-WE	West Bank	2044	2.218
-WE	West Bank	2045	2.2
-WE	West Bank	2046	2.188
-WE	West Bank	2047	2.176
-WE	West Bank	2048	2.164
-WE	West Bank	2049	2.152
-WE	West Bank	2050	2.14
-WE	West Bank	2023	2.908
-WE	West Bank	1997	4.8695
-WE	West Bank	1999	4.6165
-WE	West Bank	2000	4.49
-WE	West Bank	2001	4.418
-WE	West Bank	2002	4.346
-WE	West Bank	2003	4.274
-WE	West Bank	2004	4.202
-WE	West Bank	2005	4.13
-WE	West Bank	2006	4.056
-WE	West Bank	2007	3.982
-WE	West Bank	2008	3.908
-WE	West Bank	2009	3.834
-WE	West Bank	2010	3.76
-WE	West Bank	2011	3.688
-WE	West Bank	2012	3.616
-WE	West Bank	2013	3.544
-WE	West Bank	2014	3.472
-WE	West Bank	2015	3.4
-WE	West Bank	2016	3.334
-WE	West Bank	2017	3.268
-WE	West Bank	2018	3.202
-WE	West Bank	2019	3.136
-WE	West Bank	2020	3.07
-WE	West Bank	2021	3.016
-WE	West Bank	2022	2.962
-WE	West Bank	2024	2.854
+WE	Palestinian Territory	2038	2.342
+WE	Palestinian Territory	2025	2.8
+WE	Palestinian Territory	2026	2.756
+WE	Palestinian Territory	2027	2.712
+WE	Palestinian Territory	2028	2.668
+WE	Palestinian Territory	2029	2.624
+WE	Palestinian Territory	2030	2.58
+WE	Palestinian Territory	2031	2.548
+WE	Palestinian Territory	2032	2.516
+WE	Palestinian Territory	2033	2.484
+WE	Palestinian Territory	2034	2.452
+WE	Palestinian Territory	2035	2.42
+WE	Palestinian Territory	2036	2.394
+WE	Palestinian Territory	2037	2.368
+WE	Palestinian Territory	1998	4.743
+WE	Palestinian Territory	2039	2.316
+WE	Palestinian Territory	2040	2.29
+WE	Palestinian Territory	2041	2.272
+WE	Palestinian Territory	2042	2.254
+WE	Palestinian Territory	2043	2.236
+WE	Palestinian Territory	2044	2.218
+WE	Palestinian Territory	2045	2.2
+WE	Palestinian Territory	2046	2.188
+WE	Palestinian Territory	2047	2.176
+WE	Palestinian Territory	2048	2.164
+WE	Palestinian Territory	2049	2.152
+WE	Palestinian Territory	2050	2.14
+WE	Palestinian Territory	2023	2.908
+WE	Palestinian Territory	1997	4.8695
+WE	Palestinian Territory	1999	4.6165
+WE	Palestinian Territory	2000	4.49
+WE	Palestinian Territory	2001	4.418
+WE	Palestinian Territory	2002	4.346
+WE	Palestinian Territory	2003	4.274
+WE	Palestinian Territory	2004	4.202
+WE	Palestinian Territory	2005	4.13
+WE	Palestinian Territory	2006	4.056
+WE	Palestinian Territory	2007	3.982
+WE	Palestinian Territory	2008	3.908
+WE	Palestinian Territory	2009	3.834
+WE	Palestinian Territory	2010	3.76
+WE	Palestinian Territory	2011	3.688
+WE	Palestinian Territory	2012	3.616
+WE	Palestinian Territory	2013	3.544
+WE	Palestinian Territory	2014	3.472
+WE	Palestinian Territory	2015	3.4
+WE	Palestinian Territory	2016	3.334
+WE	Palestinian Territory	2017	3.268
+WE	Palestinian Territory	2018	3.202
+WE	Palestinian Territory	2019	3.136
+WE	Palestinian Territory	2020	3.07
+WE	Palestinian Territory	2021	3.016
+WE	Palestinian Territory	2022	2.962
+WE	Palestinian Territory	2024	2.854
 AQ	American Samoa	2038	2.198
 AQ	American Samoa	2026	2.462
 AQ	American Samoa	2027	2.434

@@ -6,10 +6,10 @@ international_datasets = ["age_specific_fertility_rates.csv","birth_death_growth
 dir_international_datasets = "../../InternationalDatasetsSmall/"
 
 def print_set_values(my_set):
-    # my_list = []
-    my_list = ["Cabo Verde", "Viet Nam", "Eswatini (Kingdom of)", "Bolivia (Plurinational State of)","Congo",
-    "Latin America and the Caribbean", "Moldova (Republic of)", "Iran (Islamic Republic of)", "Brunei Darussalam",
-    "Syrian Arab Republic", "Russian Federation"]
+    my_list = []
+    # my_list = ["Cabo Verde", "Viet Nam", "Eswatini (Kingdom of)", "Bolivia (Plurinational State of)","Congo",
+    # "Latin America and the Caribbean", "Moldova (Republic of)", "Iran (Islamic Republic of)", "Brunei Darussalam",
+    # "Syrian Arab Republic", "Russian Federation"]
 
     for value in my_set:
         if value not in my_list:print(value)
@@ -28,3 +28,4 @@ for csvs in international_datasets:
     the_matsi = parser.load_csv(dir_international_datasets+csvs)["country_name"]
     print(print_set_values(matsimatsi.matsi_matsi(set(the_matsi), set(the_other_matsi))))
     print(25*"-*-")
+    break

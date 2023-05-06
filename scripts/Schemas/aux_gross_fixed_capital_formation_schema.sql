@@ -1,4 +1,4 @@
-CREATE TABLE estimated_gni_female (
+CREATE TABLE aux_gross_fixed_capital_formation (
   country_id INTEGER NOT NULL AUTO_INCREMENT,
   country_name TEXT,
   year_1990 FLOAT,
@@ -31,6 +31,5 @@ CREATE TABLE estimated_gni_female (
   year_2017 FLOAT,
   year_2018 FLOAT,
   PRIMARY KEY (country_id),
-  UNIQUE KEY (country_name),
-  FOREIGN KEY (country_name) REFERENCES countries (Display_Name)
+  UNIQUE KEY (country_name)
 );

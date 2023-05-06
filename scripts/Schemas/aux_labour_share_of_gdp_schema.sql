@@ -1,7 +1,6 @@
-use matso_data;
-CREATE TABLE domestic_credits (
+CREATE TABLE aux_labour_share_of_gdp (
   country_id INTEGER NOT NULL AUTO_INCREMENT,
-  country_name VARCHAR(25),
+  country_name TEXT,
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,
@@ -32,6 +31,5 @@ CREATE TABLE domestic_credits (
   year_2017 FLOAT,
   year_2018 FLOAT,
   PRIMARY KEY (country_id),
-  UNIQUE KEY (country_name),
-  FOREIGN KEY (country_name) REFERENCES countries (Display_Name)
+  UNIQUE KEY (country_name)
 );

@@ -1,6 +1,7 @@
-CREATE TABLE gdp_per_capita (
+use matso_data;
+CREATE TABLE aux_domestic_credits (
   country_id INTEGER NOT NULL AUTO_INCREMENT,
-  country_name TEXT,
+  country_name VARCHAR(25),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,
@@ -31,6 +32,5 @@ CREATE TABLE gdp_per_capita (
   year_2017 FLOAT,
   year_2018 FLOAT,
   PRIMARY KEY (country_id),
-  UNIQUE KEY (country_name),
-  FOREIGN KEY (country_name) REFERENCES countries (Display_Name)
+  UNIQUE KEY (country_name)
 );

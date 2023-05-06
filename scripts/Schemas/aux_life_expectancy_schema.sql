@@ -5,4 +5,3 @@ CREATE TABLE aux_life_expectancy (
   life_expectancy FLOAT,
   PRIMARY KEY (country_code, year)
 );
-s

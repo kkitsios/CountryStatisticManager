@@ -1,8 +1,7 @@
 
 USE matso_data;
 CREATE TABLE life_expectancy_male AS 
-SELECT countries.ISO_Code, aux_life_expectancy_male.country_name, aux_life_expectancy_male.country_code,
-		aux_life_expectancy_male.year, aux_life_expectancy_male.life_expectancy_male
+SELECT countries.ISO_Code, aux_life_expectancy_male.*
 FROM aux_life_expectancy_male
 JOIN countries
 ON countries.Display_Name = aux_life_expectancy_male.country_name;

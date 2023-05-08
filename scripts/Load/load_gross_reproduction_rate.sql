@@ -1,7 +1,6 @@
 USE matso_data;
 CREATE TABLE gross_reproduction_rate AS 
-SELECT countries.ISO_Code, aux_gross_reproduction_rate.country_name, aux_gross_reproduction_rate.country_code,
-		aux_gross_reproduction_rate.year, aux_gross_reproduction_rate.gross_reproduction_rate
+SELECT countries.ISO_Code, aux_gross_reproduction_rate.*
 FROM aux_gross_reproduction_rate
 JOIN countries
 ON countries.Display_Name = aux_gross_reproduction_rate.country_name;

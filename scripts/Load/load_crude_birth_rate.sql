@@ -1,7 +1,6 @@
 USE matso_data;
 CREATE TABLE crude_birth_rate AS 
-SELECT countries.ISO_Code, aux_crude_birth_rate.country_name, aux_crude_birth_rate.country_code,
-		aux_crude_birth_rate.year, aux_crude_birth_rate.crude_birth_rate
+SELECT countries.ISO_Code, aux_crude_birth_rate.*
 FROM aux_crude_birth_rate
 JOIN countries
 ON countries.Display_Name = aux_crude_birth_rate.country_name;

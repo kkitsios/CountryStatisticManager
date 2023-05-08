@@ -1,8 +1,7 @@
 
 USE matso_data;
 CREATE TABLE sex_ratio_at_birth AS 
-SELECT countries.ISO_Code, aux_sex_ratio_at_birth.country_name, aux_sex_ratio_at_birth.country_code,
-		aux_sex_ratio_at_birth.year, aux_sex_ratio_at_birth.sex_ratio_at_birth
+SELECT countries.ISO_Code, aux_sex_ratio_at_birth.*
 FROM aux_sex_ratio_at_birth
 JOIN countries
 ON countries.Display_Name = aux_sex_ratio_at_birth.country_name;

@@ -1,8 +1,7 @@
 
 USE matso_data;
 CREATE TABLE net_migration AS 
-SELECT countries.ISO_Code, aux_net_migration.country_name, aux_net_migration.country_code,
-		aux_net_migration.year, aux_net_migration.net_migration
+SELECT countries.ISO_Code, aux_net_migration.*
 FROM aux_net_migration
 JOIN countries
 ON countries.Display_Name = aux_net_migration.country_name;

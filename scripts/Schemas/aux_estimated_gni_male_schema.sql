@@ -1,6 +1,6 @@
 CREATE TABLE aux_estimated_gni_male (
   country_id INTEGER NOT NULL AUTO_INCREMENT,
-  country_name TEXT,
+  country_name VARCHAR(25),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,

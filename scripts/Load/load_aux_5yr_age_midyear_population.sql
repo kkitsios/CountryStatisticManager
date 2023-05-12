@@ -1,0 +1,2 @@
+INSERT INTO aux_5yr_age_midyear_population (country_code, country_name, year, total_flag, starting_age, age_group_indicator, ending_age, 5yr_age_midyear_population, 5yr_age_midyear_population_male, 5yr_age_midyear_population_female )
+SELECT country_code, country_name, year, total_flag, starting_age, age_group_indicator, ending_age, 5yr_age_midyear_population, 5yr_age_midyear_population_male, 5yr_age_midyear_population_female FROM aux_tmp_5yr_age_midyear_population;

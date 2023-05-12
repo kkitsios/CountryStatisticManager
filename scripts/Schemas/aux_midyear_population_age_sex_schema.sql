@@ -106,5 +106,5 @@ CREATE TABLE aux_midyear_population_age_sex (
     population_age_98 INTEGER,
     population_age_99 INTEGER,
     population_age_100 INTEGER,    
-    PRIMARY KEY (country_code, year)
+    PRIMARY KEY (country_code, year, sex)
 );

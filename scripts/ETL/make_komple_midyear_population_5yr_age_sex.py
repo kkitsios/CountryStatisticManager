@@ -2,10 +2,8 @@ import parser
 import csv
 dataset = "../../InternationalDatasetsSmall/midyear_population_5yr_age_sex.csv"
 out_dir = "./outputs/internationalDataset/"
-prefix = "5yr_age_"
+
 dataset_hashmap = parser.load_csv(dataset)
-fixed_columns = ["country_code", "country_name", "year","total_flag","starting_age","age_group_indicator","ending_age"]
-stat_columns = list(set(dataset_hashmap.keys()) - set(fixed_columns))
 
 ignore_items =  [None]
 
@@ -40,24 +38,11 @@ for column in dataset_hashmap:
     vals = [vals[i] for i in range(len(vals)) if i not in idxs]
     dataset_hashmap[column] = vals
 
-# matsi ds
+#matsi ds
 for idx, country in enumerate(dataset_hashmap['country_name']):
     if country in matsi_matsi: dataset_hashmap['country_name'][idx] = matsi_matsi[country]
 
-
-csvs_hashmap = dict()
-
-for csv_file in stat_columns:
-    filename = prefix+csv_file+".csv"
-    csv_dict = dict()
-    for fixed_column in fixed_columns:
-        csv_dict[fixed_column] = dataset_hashmap[fixed_column]
-    csv_dict[csv_file] = dataset_hashmap[csv_file]
-    csvs_hashmap[filename] = csv_dict
-
-for filename in csvs_hashmap:
-    my_dict = csvs_hashmap[filename]    
-    with open(out_dir+filename, 'w', newline='') as csvfile:
+with open(out_dir+"midyear_population_5yr_age_sex.csv", 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter='\t')
-        writer.writerow(my_dict.keys())
-        writer.writerows(zip(*my_dict.values()))
+        writer.writerow(dataset_hashmap.keys())
+        writer.writerows(zip(*dataset_hashmap.values()))

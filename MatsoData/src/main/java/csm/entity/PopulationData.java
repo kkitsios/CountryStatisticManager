@@ -558,9 +558,9 @@ public class PopulationData {
 		return populationAge21;
 	}
 
-	public void setPopulationAge21(Integer populacountry_code VARCHAR(3),
-			  country_name VARCHAR(255),
-			  country_area FLOAT,tionAge21) {
+	
+
+	public void setPopulationAge21(Integer populationAge21) {
 		this.populationAge21 = populationAge21;
 	}
 
@@ -745,9 +745,7 @@ public class PopulationData {
 	}
 
 	public void setPopulationAge44(Integer populationAge44) {
-		this.populationAge44 = populationAge44country_code VARCHAR(3),
-				  country_name VARCHAR(255),
-				  country_area FLOAT,;
+		this.populationAge44 = populationAge44;
 	}
 
 	public Integer getPopulationAge45() {
@@ -843,9 +841,7 @@ public class PopulationData {
 	}
 
 	public void setPopulationAge56(Integer populationAge56) {
-		this.populationAge56 = populationAge56country_code VARCHAR(3),
-				  country_name VARCHAR(255),
-				  country_area FLOAT,;
+		this.populationAge56 = populationAge56;
 	}
 
 	public Integer getPopulationAge57() {

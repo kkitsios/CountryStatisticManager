@@ -1,5 +1,4 @@
-CREATE TABLE aux_gdp_total (
-  country_id INTEGER NOT NULL AUTO_INCREMENT,
+CREATE TABLE aux_tmp_gdp_total (
   country_name VARCHAR(25),
   year_1990 FLOAT,
   year_1991 FLOAT,
@@ -30,6 +29,5 @@ CREATE TABLE aux_gdp_total (
   year_2016 FLOAT,
   year_2017 FLOAT,
   year_2018 FLOAT,
-  PRIMARY KEY (country_id),
   UNIQUE KEY (country_name)
 );

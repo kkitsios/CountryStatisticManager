@@ -1,6 +1,4 @@
-use matso_data;
-CREATE TABLE aux_domestic_credits (
-  country_id INTEGER NOT NULL AUTO_INCREMENT,
+CREATE TABLE aux_tmp_income_index (
   country_name VARCHAR(25),
   year_1990 FLOAT,
   year_1991 FLOAT,

@@ -5,16 +5,23 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "5yr_age_midyear_population_male_female")
 public class AgeMidYearPopulation {
-    @Id
+    
+	//PK
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private int countryId;
+    
+	//FK
+	@ManyToOne
+	private Country country;
 
-    @Column(name = "country_code", length = 3, nullable = false)
+	@Column(name = "country_code", length = 3, nullable = false)
     private String countryCode;
 
     @Column(name = "country_name", length = 255, nullable = false)
@@ -48,12 +55,22 @@ public class AgeMidYearPopulation {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Long getId() {
-		return id;
+    //Getters-Setters
+    public Country getCountry() {
+ 		return country;
+ 	}
+
+ 	public void setCountry(Country country) {
+ 		this.country = country;
+ 	}
+   
+
+	public int getCountryId() {
+		return countryId;
 	}
 
-	public void setId(Long id) {
-		this.id = id;
+	public void setCountryId(int countryId) {
+		this.countryId = countryId;
 	}
 
 	public String getCountryCode() {

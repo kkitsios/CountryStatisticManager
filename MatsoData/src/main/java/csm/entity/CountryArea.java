@@ -4,20 +4,24 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "countries_area")
 public class CountryArea {
 
+	//PK
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @Column(name = "country_code", length = 3)
     private String countryCode;
 
-    @Column(name = "country_name", length = 255)
+    //FK
+	@ManyToOne
+	private Country country;
+	
+	
+	@Column(name = "country_name", length = 255)
     private String countryName;
 
     @Column(name = "country_area")
@@ -26,21 +30,22 @@ public class CountryArea {
     public CountryArea() {
 		// TODO Auto-generated constructor stub
 	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
+    
+    //Getters-Setters
 	public String getCountryCode() {
 		return countryCode;
 	}
 
 	public void setCountryCode(String countryCode) {
 		this.countryCode = countryCode;
+	}
+
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
 	}
 
 	public String getCountryName() {
@@ -58,7 +63,5 @@ public class CountryArea {
 	public void setCountryArea(Float countryArea) {
 		this.countryArea = countryArea;
 	}
-
-    
+   
 }
-

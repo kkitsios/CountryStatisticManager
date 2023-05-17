@@ -1,19 +1,25 @@
 package csm.entity;
 import javax.persistence.Column;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "midyear_population_age_sex")
 public class PopulationData {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", nullable = false)
-    private Long id;
+	
+	//PK
+	@EmbeddedId
+	private PopulationDataPK id;
 
+	//FK
+  	@ManyToOne
+  	private Country country;
+  	
     @Column(name = "country_code", length = 3, nullable = false)
     private String countryCode;
 
@@ -338,14 +344,21 @@ public class PopulationData {
     }
 
     // Getters and setters
+    public PopulationDataPK getId() {
+		return id;
+	}
 
-    public Long getId() {
-        return id;
-    }
+	public void setId(PopulationDataPK id) {
+		this.id = id;
+	}
+    
+    public Country getCountry() {
+		return country;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public void setCountry(Country country) {
+		this.country = country;
+	}
 
     public String getCountryCode() {
         return countryCode;

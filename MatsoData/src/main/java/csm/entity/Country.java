@@ -9,6 +9,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "countries")
 public class Country {
+	
+	//PK
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int isoCode;
@@ -86,6 +88,7 @@ public class Country {
 		// TODO Auto-generated constructor stub
 	}
 
+    //Getters-Setters
 	public int getIsoCode() {
 		return isoCode;
 	}

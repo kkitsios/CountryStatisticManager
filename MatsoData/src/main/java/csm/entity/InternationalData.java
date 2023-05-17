@@ -14,6 +14,9 @@ public class InternationalData {
 	private String countryCode;
 	@Column(name = "year")
 	private int year;
+	
+	
+	
 	@Column(name = "fertility_rate_15_19")
 	private float fertilityRate_15_19;
 	
@@ -102,6 +105,7 @@ public class InternationalData {
 		// TODO Auto-generated constructor stub
 	}
 	
+    //Getters-Setters
 	public String getCountryName() {
 		return countryName;
 	}

@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 
@@ -12,12 +13,17 @@ import javax.persistence.Table;
 @Table(name = "labour_schema_of_gdp")
 public class LabourShareOfGDP {
 	
+	//PK
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "country_id", nullable = false)
     private Integer countryId;
 
-    @Column(name = "country_name", columnDefinition = "TEXT")
+	//FK
+	@ManyToOne
+	private Country country;
+
+	@Column(name = "country_name", columnDefinition = "TEXT")
     private String countryName;
 
     @Column(name = "year_1990")
@@ -111,12 +117,21 @@ public class LabourShareOfGDP {
 		// TODO Auto-generated constructor stub
 	}
 
+    //Getters-Setters
 	public Integer getCountryId() {
 		return countryId;
 	}
 
 	public void setCountryId(Integer countryId) {
 		this.countryId = countryId;
+	}
+	
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
 	}
 
 	public String getCountryName() {

@@ -8,10 +8,9 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="backBtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csm.controller.PlotController">
    <children>
-      <LineChart layoutX="485.0" layoutY="14.0" prefHeight="340.0" prefWidth="454.0" title="LineChart">
+      <LineChart fx:id="lineChart" layoutX="485.0" layoutY="14.0" prefHeight="340.0" prefWidth="454.0" title="LineChart">
         <xAxis>
           <CategoryAxis label="X-axis" side="BOTTOM" />
         </xAxis>
@@ -19,7 +18,7 @@
           <NumberAxis label="Y-axis" side="LEFT" />
         </yAxis>
       </LineChart>
-      <BarChart layoutX="18.0" layoutY="14.0" prefHeight="340.0" prefWidth="454.0" title="BarChart">
+      <BarChart fx:id="barChart" layoutX="18.0" layoutY="14.0" prefHeight="340.0" prefWidth="454.0" title="BarChart">
         <xAxis>
           <CategoryAxis label="X-axis" side="BOTTOM" />
         </xAxis>
@@ -27,7 +26,7 @@
           <NumberAxis label="Y-axis" side="LEFT" />
         </yAxis>
       </BarChart>
-      <PieChart layoutX="494.0" layoutY="387.0" prefHeight="340.0" prefWidth="454.0" title="PieChart" />
-      <Button layoutX="31.0" layoutY="364.0" mnemonicParsing="false" prefHeight="359.0" prefWidth="442.0" text="Back" />
+      <PieChart fx:id="pieChart" layoutX="494.0" layoutY="387.0" prefHeight="340.0" prefWidth="454.0" title="PieChart" />
+      <Button layoutX="31.0" layoutY="364.0" mnemonicParsing="false" prefHeight="359.0" prefWidth="442.0" onAction="#back" text="Back" />
    </children>
 </AnchorPane>

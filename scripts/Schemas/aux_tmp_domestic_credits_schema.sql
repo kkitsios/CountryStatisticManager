@@ -1,6 +1,6 @@
 use matso_data;
 CREATE TABLE aux_tmp_domestic_credits (
-  country_name VARCHAR(25),
+  country_name VARCHAR(50),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,

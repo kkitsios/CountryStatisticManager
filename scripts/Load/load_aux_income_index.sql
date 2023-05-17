@@ -1,4 +1,4 @@
-INSERT INTO aux_tmp_income_index_schema 
+INSERT INTO aux_income_index
 (
   country_name ,
   year_1990 ,
@@ -59,5 +59,5 @@ INSERT INTO aux_tmp_income_index_schema
   year_2015 ,
   year_2016 ,
   year_2017 ,
-  year_2018 FROM aux_tmp_income_index_schema ;
+  year_2018 FROM aux_tmp_income_index;
 

@@ -1,5 +1,5 @@
 CREATE TABLE aux_tmp_labour_share_of_gdp (
-  country_name VARCHAR(25),
+  country_name VARCHAR(50),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,

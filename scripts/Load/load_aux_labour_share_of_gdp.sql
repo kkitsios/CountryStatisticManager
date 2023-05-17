@@ -1,4 +1,4 @@
-INSERT INTO aux_tmp_labour_share_of_gdp 
+INSERT INTO aux_labour_share_of_gdp 
 (
   country_name ,
   year_1990 ,
@@ -59,5 +59,5 @@ INSERT INTO aux_tmp_labour_share_of_gdp
   year_2015 ,
   year_2016 ,
   year_2017 ,
-  year_2018 FROM aux_tmp_labour_share_of_gdp_schema;
+  year_2018 FROM aux_tmp_labour_share_of_gdp;
 

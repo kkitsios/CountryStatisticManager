@@ -1,5 +1,5 @@
 CREATE TABLE aux_tmp_estimated_gni_male (
-  country_name VARCHAR(25),
+  country_name VARCHAR(50),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,

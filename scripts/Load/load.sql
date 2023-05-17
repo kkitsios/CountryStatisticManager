@@ -1,3 +1,4 @@
+USE matso_data;
 source load_crude_birth_rate.sql;
 source load_crude_death_rate.sql;
 source load_fertility_rate_15_19.sql;
@@ -25,10 +26,8 @@ source load_mortality_rate_under5.sql;
 source load_net_migration.sql;
 source load_rate_natural_increase.sql;
 source load_sex_ratio_at_birth.sql;
-source load_total_fertility.sql;
+source load_total_fertility_rate.sql;
 source load_country_areas.sql;
-source load_5yr_age_midyear_population_female.sql;
-source load_5yr_age_midyear_population_male.sql;
 source load_5yr_age_midyear_population.sql;
 source load_midyear_population_age_sex.sql;
 source load_domestic_credits.sql;

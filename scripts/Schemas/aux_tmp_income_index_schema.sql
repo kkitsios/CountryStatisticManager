@@ -1,5 +1,5 @@
 CREATE TABLE aux_tmp_income_index (
-  country_name VARCHAR(25),
+  country_name VARCHAR(50),
   year_1990 FLOAT,
   year_1991 FLOAT,
   year_1992 FLOAT,
@@ -29,6 +29,5 @@ CREATE TABLE aux_tmp_income_index (
   year_2016 FLOAT,
   year_2017 FLOAT,
   year_2018 FLOAT,
-  PRIMARY KEY (country_id),
   UNIQUE KEY (country_name)
 );

@@ -1,4 +1,4 @@
-INSERT INTO aux_tmp_gross_fixed_capital_formation 
+INSERT INTO aux_gross_fixed_capital_formation 
 (
   country_name ,
   year_1990 ,

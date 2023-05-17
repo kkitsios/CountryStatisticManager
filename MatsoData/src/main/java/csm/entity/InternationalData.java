@@ -5,8 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 
-@Entity
-@Table(name = "fertility_rate_20_24")
+//@Entity
+@Table(name = "international_data")
 public class InternationalData {
 	@Column(name = "country_name")
 	private String countryName;

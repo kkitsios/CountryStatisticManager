@@ -55,37 +55,38 @@ public class PopulationData {
 
     @Column(name = "population_age_8")
     private Integer populationAge8;
-    @Column(name = "population_age_8")
+    
+    @Column(name = "population_age_9")
     private Integer populationAge9;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_10")
     private Integer populationAge10;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_11")
     private Integer populationAge11;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_12")
     private Integer populationAge12;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_13")
     private Integer populationAge13;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_14")
     private Integer populationAge14;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_15")
     private Integer populationAge15;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_16")
     private Integer populationAge16;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_17")
     private Integer populationAge17;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_18")
     private Integer populationAge18;
     
-    @Column(name = "population_age_8")
+    @Column(name = "population_age_19")
     private Integer populationAge19;
     
     @Column(name = "population_age_20")

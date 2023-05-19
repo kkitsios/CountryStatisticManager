@@ -20,17 +20,17 @@ public class PopulationData {
   	@ManyToOne
   	private Country country;
   	
-    @Column(name = "country_code", length = 3, nullable = false)
-    private String countryCode;
+//    @Column(name = "country_code", length = 3, nullable = false)
+//    private String countryCode;
 
     @Column(name = "country_name", length = 50)
     private String countryName;
 
-    @Column(name = "year", nullable = false)
-    private Integer year;
+//    @Column(name = "year", nullable = false)
+//    private Integer year;
 
-    @Column(name = "sex", length = 10)
-    private String sex;
+//    @Column(name = "sex", length = 10)
+//    private String sex;
 
     @Column(name = "max_age", nullable = false)
     private Integer maxAge;
@@ -360,13 +360,13 @@ public class PopulationData {
 		this.country = country;
 	}
 
-    public String getCountryCode() {
-        return countryCode;
-    }
-
-    public void setCountryCode(String countryCode) {
-        this.countryCode = countryCode;
-    }
+//    public String getCountryCode() {
+//        return countryCode;
+//    }
+//
+//    public void setCountryCode(String countryCode) {
+//        this.countryCode = countryCode;
+//    }
 
     public String getCountryName() {
         return countryName;
@@ -376,21 +376,21 @@ public class PopulationData {
         this.countryName = countryName;
     }
 
-    public Integer getYear() {
-        return year;
-    }
+//    public Integer getYear() {
+//        return year;
+//    }
+//
+//    public void setYear(Integer year) {
+//        this.year = year;
+//    }
 
-    public void setYear(Integer year) {
-        this.year = year;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
+//    public String getSex() {
+//        return sex;
+//    }
+//
+//    public void setSex(String sex) {
+//        this.sex = sex;
+//    }
 
     public Integer getMaxAge() {
         return maxAge;

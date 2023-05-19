@@ -1,22 +1,26 @@
 package csm.entity;
 
 import javax.persistence.Column;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 
-//@Entity
+@Entity
 @Table(name = "international_data")
 public class InternationalData {
+	
+	@EmbeddedId
+	private InternationalDataPK internationalDataPK;
+	
+	@ManyToOne
+  	private Country country;
+	
 	@Column(name = "country_name")
 	private String countryName;
-	@Column(name = "country_code")
-	private String countryCode;
-	@Column(name = "year")
-	private int year;
-	
-	
-	
+
+
 	@Column(name = "fertility_rate_15_19")
 	private float fertilityRate_15_19;
 	
@@ -112,18 +116,18 @@ public class InternationalData {
 	public void setCountryName(String countryName) {
 		this.countryName = countryName;
 	}
-	public String getCountryCode() {
-		return countryCode;
-	}
-	public void setCountryCode(String countryCode) {
-		this.countryCode = countryCode;
-	}
-	public int getYear() {
-		return year;
-	}
-	public void setYear(int year) {
-		this.year = year;
-	}
+//	public String getCountryCode() {
+//		return countryCode;
+//	}
+//	public void setCountryCode(String countryCode) {
+//		this.countryCode = countryCode;
+//	}
+//	public int getYear() {
+//		return year;
+//	}
+//	public void setYear(int year) {
+//		this.year = year;
+//	}
 	public float getFertilityRate_15_19() {
 		return fertilityRate_15_19;
 	}
@@ -292,6 +296,23 @@ public class InternationalData {
 	public void setRateNaturalIncrease(float rateNaturalIncrease) {
 		this.rateNaturalIncrease = rateNaturalIncrease;
 	}
+
+	public InternationalDataPK getInternationalData() {
+		return internationalDataPK;
+	}
+
+	public void setInternationalData(InternationalDataPK internationalData) {
+		this.internationalDataPK = internationalData;
+	}
+
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+	
 	
 	
 

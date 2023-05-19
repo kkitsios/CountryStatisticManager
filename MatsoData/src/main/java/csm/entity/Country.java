@@ -12,37 +12,37 @@ public class Country {
 	
 	//PK
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int isoCode;
 
-    @Column(length = 3)
+    @Column(name = "iso",length = 3)
     private String iso;
 
-    @Column(length = 3)
+    @Column(name = "iso3",length = 3)
     private String iso3;
 
-    @Column(length = 2)
+    @Column(name = "fips",length = 2)
     private String fips;
 
-    @Column(length = 100)
+    @Column(name = "display_name",length = 100)
     private String displayName;
 
-    @Column(length = 200)
+    @Column(name = "official_name",length = 200)
     private String officialName;
 
-    @Column(length = 100)
+    @Column(name = "capital",length = 100)
     private String capital;
 
-    @Column(length = 50)
+    @Column(name = "continent",length = 50)
     private String continent;
 
-    @Column(length = 3)
+    @Column(name = "currencyCode", length = 3)
     private String currencyCode;
 
-    @Column(length = 100)
+    @Column(name = "currencyName",length = 100)
     private String currencyName;
 
-    @Column(length = 20)
+    @Column(name = "phone",length = 20)
     private String phone;
 
     @Column(name = "region_code", length = 5)
@@ -63,7 +63,7 @@ public class Country {
     @Column(name = "intermediate_region_name", length = 100)
     private String intermediateRegionName;
 
-    @Column(length = 50)
+    @Column(name = "status",length = 50)
     private String status;
 
     @Column(name = "developed_or_developing", length = 50)
@@ -78,7 +78,7 @@ public class Country {
     @Column(name = "least_developed_countries", length = 5)
     private String leastDevelopedCountries;
 
-    @Column(name = "area_sq_km")
+    @Column(name = "area_sqkm")
     private float areaSqKm;
 
     @Column(name = "Population")

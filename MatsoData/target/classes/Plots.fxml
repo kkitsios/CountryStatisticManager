@@ -4,7 +4,7 @@
 <?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
-<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.chart.ScatterChart?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
@@ -26,7 +26,14 @@
           <NumberAxis label="Y-axis" side="LEFT" />
         </yAxis>
       </BarChart>
-      <PieChart fx:id="pieChart" layoutX="494.0" layoutY="387.0" prefHeight="340.0" prefWidth="454.0" title="PieChart" />
-      <Button layoutX="31.0" layoutY="364.0" mnemonicParsing="false" prefHeight="359.0" prefWidth="442.0" onAction="#back" text="Back" />
+      <Button layoutX="31.0" layoutY="364.0" mnemonicParsing="false" onAction="#back" prefHeight="359.0" prefWidth="442.0" text="Back" />
+      <ScatterChart fx:id="scatterChart" layoutX="485.0" layoutY="344.0" prefHeight="340.0" prefWidth="477.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </ScatterChart>
    </children>
 </AnchorPane>

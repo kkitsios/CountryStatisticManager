@@ -22,8 +22,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
 
-@Repository
-public class InternationalDataDAOImpl implements InternationalDataDao {
+@Repository("international")
+public class InternationalDataDAOImpl implements MetricsDAO {
     private final EntityManager entityManager;
 
     public InternationalDataDAOImpl(EntityManager entityManager) {
@@ -32,7 +32,7 @@ public class InternationalDataDAOImpl implements InternationalDataDao {
 
     @Override
     @Transactional
-    public List<Double> findStatByCountry(String stat, List<String> countries, int startYear, int endYear) {
+    public List<Double> findMetricByCountryBetween(String stat, List<String> countries, int startYear, int endYear) {
         CriteriaBuilder builder = entityManager.getCriteriaBuilder();
         CriteriaQuery<Double> query = builder.createQuery(Double.class);
         Root<InternationalData> root = query.from(InternationalData.class);

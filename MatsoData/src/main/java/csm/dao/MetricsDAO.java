@@ -11,10 +11,8 @@ import csm.entity.InternationalData;
 import csm.entity.InternationalDataPK;
 
 
-public interface InternationalDataDao{
+public interface MetricsDAO{
 	
-//	@Query("SELECT e.{stat} FROM international_data e WHERE e.country_name IN :countries AND e.year BETWEEN :startYear AND :endYear")
-	public List<Double> findStatByCountry(String stat, List<String> countries,
-										   int startYear,  int endYear);
+	public List<Double> findMetricByCountryBetween(String stat, List<String> countries, int startYear,  int endYear);
 
 }

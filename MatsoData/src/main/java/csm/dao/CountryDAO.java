@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import csm.entity.Country;
 
-@Repository
+@Repository("country")
 public interface CountryDAO extends JpaRepository<Country, Integer> {
 	
 	public List<Country> findAll();

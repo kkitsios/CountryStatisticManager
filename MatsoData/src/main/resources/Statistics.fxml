@@ -39,24 +39,21 @@
 <?import javafx.scene.text.Text?>
 <?import org.controlsfx.control.CheckComboBox?>
 
-<AnchorPane prefHeight="599.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="325.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="csm.controller.StatisticController">
    <children>
-      <Button fx:id="estimateBtn" layoutX="207.0" layoutY="274.0" mnemonicParsing="false" onAction="#createPlots" text="Estimate" />
-      <ComboBox fx:id="year1" layoutX="74.0" layoutY="84.0" prefHeight="26.0" prefWidth="70.0" promptText="Year" />
-      <Text layoutX="40.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" AnchorPane.bottomAnchor="492.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="464.0" AnchorPane.topAnchor="90.0" />
-      <Text layoutX="154.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
-      <Text layoutX="162.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Input" wrappingWidth="151.99999389648434">
+      <Button fx:id="estimateBtn" layoutX="235.0" layoutY="450.0" mnemonicParsing="false" onAction="#createPlots" prefHeight="49.0" prefWidth="101.0" text="Show Plots" />
+      <ComboBox fx:id="year1" layoutX="84.0" layoutY="85.0" prefHeight="26.0" prefWidth="77.0" promptText="Year" />
+      <Text layoutX="30.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:" AnchorPane.bottomAnchor="492.8970003128052" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="474.0" AnchorPane.topAnchor="89.10299968719482" />
+      <Text layoutX="174.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to" />
+      <Text layoutX="202.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Input" wrappingWidth="151.99999389648434">
          <font>
             <Font name="System Bold" size="27.0" />
          </font>
       </Text>
-      <ComboBox fx:id="year2" layoutX="176.0" layoutY="85.0" prefHeight="26.0" prefWidth="70.0" promptText="Year" />
+      <ComboBox fx:id="year2" layoutX="201.0" layoutY="85.0" prefHeight="26.0" prefWidth="77.0" promptText="Year" />
       <Text layoutX="17.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Countries:" />
-      <Text layoutX="17.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistics:" wrappingWidth="53.15625" />
-      <CheckComboBox fx:id="country1" layoutX="84.0" layoutY="132.0" title="Country" />
-      <CheckComboBox fx:id="country2" layoutX="170.0" layoutY="132.0" title="Country" />
-      <CheckComboBox fx:id="country3" layoutX="253.0" layoutY="131.0" title="Country" />
-      <CheckComboBox fx:id="stat1" layoutX="82.0" layoutY="172.0" title="Statistics" />
-      <CheckComboBox fx:id="stat2" layoutX="168.0" layoutY="172.0" title="Statistics" />
+      <Text layoutX="19.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Statistics:" wrappingWidth="77.15625" />
+      <CheckComboBox fx:id="country" layoutX="84.0" layoutY="132.0" title="Country" />
+      <CheckComboBox fx:id="stat" layoutX="84.0" layoutY="172.0" title="Statistics" />
    </children>
 </AnchorPane>

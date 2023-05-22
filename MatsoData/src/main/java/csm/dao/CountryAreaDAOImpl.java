@@ -43,8 +43,7 @@ public class CountryAreaDAOImpl implements MetricsDAO {
 
 
         query.select(root.get(stat));
-        query.where(root.get("countryName").in(countries)
-        );
+        query.where(root.get("countryName").in(countries));
 
         List<Double> queryResults = entityManager.createQuery(query).getResultList();
         results.addAll(queryResults);

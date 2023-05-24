@@ -15,6 +15,7 @@ import csm.dao.CountryDAO;
 import csm.dao.MetricsDAO;
 import csm.entity.Country;
 import csm.entity.DataToSend;
+import csm.entity.Metric;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -50,6 +51,9 @@ public class StatisticController implements Initializable {
 	
 	@Autowired
 	private DataToSend dataToSend;
+	
+	@Autowired
+	private List<Metric> selectedmetrics;
 	
 //	@Autowired
 //	private CountryDAO countryDAO;
@@ -158,7 +162,8 @@ public class StatisticController implements Initializable {
 		List<String> selectedMetrics = new ArrayList<String>(); 
 		List<String> selectedCountries = new ArrayList<String>(); 
 		List<Integer> years = new ArrayList<Integer>(); 
-		List<String> typeOfMetrics = new ArrayList<>();
+
+		
 		for (String metric : stat.getCheckModel().getCheckedItems()) {
 			selectedMetrics.add(metric);
 		}
@@ -170,12 +175,19 @@ public class StatisticController implements Initializable {
 		years.add(year2.getValue());
 		
 		for (String metric : country.getCheckModel().getCheckedItems()) {
-			typeOfMetrics.add(getTypeOfMetric(metric));
+			
+			Metric selectedMetric = new Metric();
+			selectedMetric.setNameOfMetric(metric);
+			selectedMetric.setTypeOfMetric(getTypeOfMetric(metric));
+			selectedmetrics.add(selectedMetric);
+			System.err.println(selectedMetric.getNameOfMetric());
 		}
 		
 		dataToSend.setSelectedCountries(selectedCountries);
-		dataToSend.setSelectedMetrics(selectedMetrics);
-		dataToSend.setTypeOfMetrics(typeOfMetrics);
+		
+
+
+		
 		dataToSend.setYears(years);
 		
 	    FXMLLoader fxmlLoader = new FXMLLoader();

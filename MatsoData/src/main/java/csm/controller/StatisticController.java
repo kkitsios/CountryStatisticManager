@@ -52,8 +52,8 @@ public class StatisticController implements Initializable {
 	@Autowired
 	private DataToSend dataToSend;
 	
-	@Autowired
-	private List<Metric> selectedmetrics;
+//	@Autowired
+//	private List<Metric> selectedmetrics;
 	
 //	@Autowired
 //	private CountryDAO countryDAO;
@@ -139,7 +139,7 @@ public class StatisticController implements Initializable {
 			for (int i = 0; i<=100;i++) {
 			AVAILABLE_POPULATION_METRICS[i] = "populationAge"+i;
 			}
-			metrics.add("Country Area");
+			metrics.add("countryArea");
 			metrics.addAll(AVAILABLE_ECONOMIC_METRICS);
 			metrics.addAll(AVAILABLE_DEMOGRAPHIC_METRICS);
 			metrics.addAll(AVAILABLE_MIDYEAR_POPULATION_METRICS);
@@ -159,14 +159,14 @@ public class StatisticController implements Initializable {
 	
 	@FXML
 	public void createPlots() {
-		List<String> selectedMetrics = new ArrayList<String>(); 
+		List<Metric> selectedMetrics = new ArrayList<>(); 
 		List<String> selectedCountries = new ArrayList<String>(); 
 		List<Integer> years = new ArrayList<Integer>(); 
 
 		
-		for (String metric : stat.getCheckModel().getCheckedItems()) {
-			selectedMetrics.add(metric);
-		}
+//		for (String metric : stat.getCheckModel().getCheckedItems()) {
+//			selectedMetrics.add(metric);
+//		}
 		
 		for (String metric : country.getCheckModel().getCheckedItems()) {
 			selectedCountries.add(metric);
@@ -174,16 +174,21 @@ public class StatisticController implements Initializable {
 		years.add(year1.getValue());
 		years.add(year2.getValue());
 		
-		for (String metric : country.getCheckModel().getCheckedItems()) {
+		for (String metric : stat.getCheckModel().getCheckedItems()) {
 			
-			Metric selectedMetric = new Metric();
-			selectedMetric.setNameOfMetric(metric);
-			selectedMetric.setTypeOfMetric(getTypeOfMetric(metric));
-			selectedmetrics.add(selectedMetric);
-			System.err.println(selectedMetric.getNameOfMetric());
+			Metric selectedmetric = new Metric();
+			
+			
+			selectedmetric.setNameOfMetric(metric);
+			selectedmetric.setTypeOfMetric(getTypeOfMetric(metric));
+			
+//			System.err.println(selectedMetric.getTypeOfMetric() + " "+ metric+"1");
+			selectedMetrics.add(selectedmetric);
+			
 		}
 		
 		dataToSend.setSelectedCountries(selectedCountries);
+		dataToSend.setSelectedMetrics(selectedMetrics);
 		
 
 
@@ -200,7 +205,7 @@ public class StatisticController implements Initializable {
 	      scene = new Scene(fxmlLoader.load());
 	      stage.setScene(scene);
 	      stage.setUserData(dataToSend);
-	      System.err.println(dataToSend.getSelectedCountries().get(0));
+//	      System.err.println(dataToSend.getSelectedCountries().get(0));
 
 	      stage.setResizable(false);
 	      stage.show();

@@ -27,6 +27,12 @@ public class EconomicDAOImpl implements MetricsDAO {
 		if (startYear < 1990)
 			startYear = 1990;
 		
+		if (startYear > 2018)
+			startYear = 2018;
+		
+		if (endYear < 1990)
+			endYear = 1990;
+		
 		if (endYear > 2018)
 			endYear = 2018;
 		
@@ -34,16 +40,28 @@ public class EconomicDAOImpl implements MetricsDAO {
 			columns.add(PREFIX+i);
 		}
 		
-		System.err.println(columns);
 		
 		columns.forEach(columnNames::add);
-		System.err.println(columnNames);
+//		System.err.println(columnNames);
 		
 		String jpql = "SELECT " + columnNames + " FROM " + stat + " WHERE country_name IN :countries";
 		
-		List<Object[]> resultObjects = entityManager.createNativeQuery(jpql)
-				.setParameter("countries", countries)
-				.getResultList();
+		List<Object[]> resultObjects = null;
+		if (columns.size() > 1) {
+			resultObjects = entityManager.createNativeQuery(jpql)
+					.setParameter("countries", countries)
+					.getResultList();
+		} else {
+			resultObjects = new ArrayList<>();
+			List<Object> oneCol = entityManager.createNativeQuery(jpql)
+					.setParameter("countries", countries)
+					.getResultList();
+			for (Object object : oneCol) {
+				resultObjects.add(new Object[] {object});
+			}
+		}
+		
+		
 		
 		for (Object[] rowObjects : resultObjects) {
 			for (Object value : rowObjects) {

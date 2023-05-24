@@ -14,8 +14,7 @@ public class PopulationData {
 	
 	//PK
 	@EmbeddedId
-	private PopulationDataPK id;
-
+	private PopulationDataPK populationDataPK;
 	//FK
   	@ManyToOne
   	private Country country;
@@ -345,11 +344,11 @@ public class PopulationData {
 
     // Getters and setters
     public PopulationDataPK getId() {
-		return id;
+		return populationDataPK;
 	}
 
 	public void setId(PopulationDataPK id) {
-		this.id = id;
+		this.populationDataPK = id;
 	}
     
     public Country getCountry() {

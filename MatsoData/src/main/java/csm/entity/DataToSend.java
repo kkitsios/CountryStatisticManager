@@ -5,21 +5,26 @@ import java.util.List;
 
 import javax.persistence.Entity;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class DataToSend {
-	private List<String> selectedMetrics; 
+	
 	private List<String> selectedCountries; 
-	private List<Integer> years;  
-	private List<String> typeOfMetrics;
-	
+	private List<Integer> years;
+	@Autowired
+	private List<Metric> selectedMetrics;
 	
 	
 
-
-	public List<String> getSelectedMetrics() {
+	public List<Metric> getSelectedMetrics() {
 		return selectedMetrics;
+	}
+
+
+	public void setSelectedMetrics(List<Metric> selectedMetrics) {
+		this.selectedMetrics = selectedMetrics;
 	}
 
 
@@ -33,16 +38,6 @@ public class DataToSend {
 	}
 
 
-	public List<String> getTypeOfMetrics() {
-		return typeOfMetrics;
-	}
-
-
-	public void setSelectedMetrics(List<String> selectedMetrics) {
-		this.selectedMetrics = selectedMetrics;
-	}
-
-
 	public void setSelectedCountries(List<String> selectedCountries) {
 		this.selectedCountries = selectedCountries;
 	}
@@ -53,9 +48,7 @@ public class DataToSend {
 	}
 
 
-	public void setTypeOfMetrics(List<String> typeOfMetrics) {
-		this.typeOfMetrics = typeOfMetrics;
-	}
+
 	
 	
 	

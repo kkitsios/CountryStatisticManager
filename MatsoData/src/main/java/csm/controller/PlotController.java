@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 
 import csm.dao.MetricsDAO;
 import csm.entity.DataToSend;
+import csm.entity.Metric;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -41,16 +42,29 @@ public class PlotController implements Initializable{
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		Platform.runLater(() -> {
-			List<MetricsDAO> metricsDAOs = new ArrayList<MetricsDAO>();
+			//List<MetricsDAO> metricsDAOs = new ArrayList<MetricsDAO>();
+			List<List<Double>> metrics = new ArrayList<>();
+			List<Double> valuesOfMetric = new ArrayList<>();
+			List<Integer> years = new ArrayList<>();
+			List<String> countries = new ArrayList<>(); 
 			
 			dataToSend = (DataToSend) lineChart.getScene().getWindow().getUserData();
+			
+			years = dataToSend.getYears();
+			
+			countries = dataToSend.getSelectedCountries();
 
-			for (String typeOfMetric : dataToSend.getTypeOfMetrics()) {
-				MetricsDAO metricsDAO = (MetricsDAO) applicationContext.getBean(typeOfMetric);
-				metricsDAOs.add(metricsDAO);
+			for (Metric metric : (dataToSend).getSelectedMetrics()) {
+				
+				MetricsDAO metricsDAO = (MetricsDAO) applicationContext.getBean(metric.getTypeOfMetric());
+				
+				valuesOfMetric = metricsDAO.findMetricByCountryBetween(metric.getNameOfMetric(), countries, years.get(0), years.get(1));
+				
+				metrics.add(valuesOfMetric);
+				
 			}
 			
-			// TODO polla
+			
 		});
 		
 		

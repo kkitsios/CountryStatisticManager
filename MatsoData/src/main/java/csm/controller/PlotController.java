@@ -107,7 +107,7 @@ public class PlotController implements Initializable{
 //        series.getData().add(new XYChart.Data<>("Category 2", 20));
 //        series.getData().add(new XYChart.Data<>("Category 3", 15));
         for (int i = 0; i<values.size();i++) {
-        	series.getData().add(new XYChart.Data<>(years.get(i)+"", values.get(i)));
+        	series.getData().add(new XYChart.Data<>(years.get(0)+i+"", values.get(i)));
         }
 
         chart.getData().add(series);

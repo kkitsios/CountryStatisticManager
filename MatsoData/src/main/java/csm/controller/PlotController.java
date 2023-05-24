@@ -20,6 +20,7 @@ import javafx.scene.Scene;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.PieChart;
+import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 
 @Controller
@@ -63,6 +64,9 @@ public class PlotController implements Initializable{
 				
 			}
 			
+			XYChart.Series<Integer, Double> dataSeries = new XYChart.Series<Integer, Double>();
+			dataSeries.getData().add(
+					new XYChart.Data<Integer,Double>());
 			
 		});
 		

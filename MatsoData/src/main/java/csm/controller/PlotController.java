@@ -55,7 +55,6 @@ public class PlotController implements Initializable{
 			countries = dataToSend.getSelectedCountries();
 
 			for (Metric metric : (dataToSend).getSelectedMetrics()) {
-				
 				MetricsDAO metricsDAO = (MetricsDAO) applicationContext.getBean(metric.getTypeOfMetric());
 				
 				valuesOfMetric = metricsDAO.findMetricByCountryBetween(metric.getNameOfMetric(), countries, years.get(0), years.get(1));

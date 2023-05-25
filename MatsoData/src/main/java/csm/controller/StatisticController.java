@@ -196,7 +196,7 @@ public class StatisticController implements Initializable {
 		dataToSend.setYears(years);
 		
 	    FXMLLoader fxmlLoader = new FXMLLoader();
-	    fxmlLoader.setLocation(getClass().getClassLoader().getResource("barchart.fxml"));
+	    fxmlLoader.setLocation(getClass().getClassLoader().getResource("Plots.fxml"));
 	    fxmlLoader.setControllerFactory(applicationContext::getBean);
 	    
 	    Scene scene;
@@ -207,7 +207,7 @@ public class StatisticController implements Initializable {
 	      stage.setUserData(dataToSend);
 //	      System.err.println(dataToSend.getSelectedCountries().get(0));
 
-//	      stage.setResizable(false);
+	      stage.setResizable(false);
 	      stage.show();
 	      ((Stage) country.getScene().getWindow()).close();
 			

@@ -124,7 +124,7 @@ public class PlotController implements Initializable{
 					
 				}
 		        
-		        if (dataToSend.getSelectedMetrics().get(index).getTypeOfMetric().equals("Economic")) {
+		        if (dataToSend.getSelectedMetrics().get(index++).getTypeOfMetric().equals("Economic")) {
 		        	chartYears = yearList.get(0);
 		        } else {
 					chartYears = yearList.get(1);
@@ -145,20 +145,21 @@ public class PlotController implements Initializable{
 		        }
 		        
 		        
-		        if(metrics.size() == 2) {
+		        
+//		        index++;
+		        
+			}
+			
+		       if(metrics.size() == 2) {
 	        		XYChart.Series<Number, Number> series = new XYChart.Series<>();
-		        	for(int i = 0; i < yearRange; i++) {
-		        		series.getData().add(new XYChart.Data<>(metrics.get(0).get(i),metrics.get(1).get(i)));
+		        	for(int i = 0; i < metrics.get(0).size(); i++) {
+		        		series.getData().add(new XYChart.Data<>(metrics.get(0).get(i), metrics.get(1).get(i)));
 		
 		        	}
 		        	
 		        	scatterChart.getData().add(series);
 		        	
 		        }
-		        
-//		        index++;
-		        
-			}
 				
 		});
 		

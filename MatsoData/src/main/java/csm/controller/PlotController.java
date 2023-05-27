@@ -57,28 +57,92 @@ public class PlotController implements Initializable{
 			
 			dataToSend = (DataToSend) barChart.getScene().getWindow().getUserData();
 			
-			years = dataToSend.getYears();
+
+			int yearRange = dataToSend.getYears().get(1) - dataToSend.getYears().get(0) + 1;
+			
+			for (int i = dataToSend.getYears().get(0); i <= dataToSend.getYears().get(1);i++) {
+				years.add(i);
+			}
+			List<List<Integer>> yearList = new ArrayList<>();
+			yearList.add(years);
+			
 			
 			countries = dataToSend.getSelectedCountries();
 
 			for (Metric metric : (dataToSend).getSelectedMetrics()) {
 				MetricsDAO metricsDAO = (MetricsDAO) applicationContext.getBean(metric.getTypeOfMetric());
 				
-				valuesOfMetric = metricsDAO.findMetricByCountryBetween(metric.getNameOfMetric(), countries, years.get(0), years.get(1));
+				if (metric.getTypeOfMetric().equals("Economic") && yearList.size() < 2) {
+					int start = years.get(0);
+					int end = years.get(yearRange-1);
+					if (start >= 1990 && start <= 2018 && end >= 1990 && end <= 2018) {
+						
+					}
+					else {
+						List<Integer> economicYears = new ArrayList<>();
+						if (start < 1990) {
+							start = 1990;
+						}
+						if (start < 2018) {
+							start = 2018;
+						}
+						if (end > 2018) {
+							end = 2018;
+						}
+						if (end < 1990) {
+							end = 1990;
+						}
+						
+						for (int i = start; i <= end;i++) {
+							economicYears.add(i);
+						}
+						yearList.add(economicYears);						
+					}
+					
+					
+				}
+				valuesOfMetric = metricsDAO.findMetricByCountryBetween(metric.getNameOfMetric(), countries, years.get(0), years.get(yearRange-1));
 				
 				metrics.add(valuesOfMetric);
 				
 			}
 
+			int index = 0;
 			for (List<Double> values: metrics) {
+				List<Integer> chartYears;
 		        CategoryAxis xAxis = new CategoryAxis();
 		        NumberAxis yAxis = new NumberAxis();
-		        XYChart.Series<String, Number> series = new XYChart.Series<>();
-		        for (int i = 0; i<values.size();i++) {
-		        	series.getData().add(new XYChart.Data<>(years.get(0)+i+"", values.get(i)));
+		        List<XYChart.Series<String, Number>> seriesList = new ArrayList<>();
+		        
+		        List<List<Double>> countryValues = new ArrayList<>() ;
+		        int startIndex = 0;
+		        while (startIndex < values.size()) {
+					int endIndex = Math.min(startIndex + yearRange, values.size());
+					countryValues.add(values.subList(startIndex, endIndex));
+					startIndex += yearRange;
+					
+				}
+		        
+		        if (dataToSend.getSelectedMetrics().get(index).getTypeOfMetric().equals("Economic")) {
+		        	chartYears = yearList.get(0);
+		        } else {
+					chartYears = yearList.get(1);
+				}
+		        
+		        
+		        for (List<Double> someCountryValues : countryValues) {
+		        	XYChart.Series<String, Number> series = new XYChart.Series<>();
+		        	for (int i = 0; i < someCountryValues.size();i++) {
+			        	series.getData().add(new XYChart.Data<>(chartYears.get(i)+"", someCountryValues.get(i)));
+			        }		   
+		        	seriesList.add(series);
 		        }
 
-		        barChart.getData().add(series);
+		        for (XYChart.Series<String, Number> series : seriesList) {
+		        	barChart.getData().add(series);
+		        }
+//		        index++;
+		        
 			}
 				
 		});

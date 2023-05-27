@@ -23,6 +23,7 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.PieChart;
+import javafx.scene.chart.ScatterChart;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -31,20 +32,20 @@ public class PlotController implements Initializable{
 	
 	@FXML
 	private BarChart<String, Number> barChart;
-//	
-//	@FXML
-//	private LineChart<String, Double> lineChart;
-//	
-////	@FXML
-////	private PieChart pieChart;
+
+	@FXML
+	private LineChart<String, Number> lineChart;
+
+	@FXML
+	private ScatterChart<Number, Number> scatterChart;
 	
 //	@FXML
 //	private VBox vbox;
 	
 	private DataToSend dataToSend;
 	
-	 @Autowired
-	 private ApplicationContext applicationContext;
+	@Autowired
+	private ApplicationContext applicationContext;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
@@ -139,8 +140,22 @@ public class PlotController implements Initializable{
 		        }
 
 		        for (XYChart.Series<String, Number> series : seriesList) {
+		        	lineChart.getData().add(series);
 		        	barChart.getData().add(series);
 		        }
+		        
+		        
+		        if(metrics.size() == 2) {
+	        		XYChart.Series<Number, Number> series = new XYChart.Series<>();
+		        	for(int i = 0; i < yearRange; i++) {
+		        		series.getData().add(new XYChart.Data<>(metrics.get(0).get(i),metrics.get(1).get(i)));
+		
+		        	}
+		        	
+		        	scatterChart.getData().add(series);
+		        	
+		        }
+		        
 //		        index++;
 		        
 			}

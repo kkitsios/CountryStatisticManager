@@ -171,6 +171,7 @@ public class StatisticController implements Initializable {
 		for (String metric : country.getCheckModel().getCheckedItems()) {
 			selectedCountries.add(metric);
 		}
+		System.err.println(year2.getValue());
 		years.add(year1.getValue());
 		years.add(year2.getValue());
 		

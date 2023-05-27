@@ -36,7 +36,9 @@ public class EconomicDAOImpl implements MetricsDAO {
 		if (endYear > 2018)
 			endYear = 2018;
 		
-		for (int i = startYear; i<=endYear; i++) {
+//		System.err.println(endYear);
+		for (int i = startYear; i <= endYear; i++) {
+//			System.err.println(i);
 			columns.add(PREFIX+i);
 		}
 		

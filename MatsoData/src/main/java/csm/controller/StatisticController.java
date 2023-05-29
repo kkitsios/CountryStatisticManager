@@ -52,11 +52,6 @@ public class StatisticController implements Initializable {
 	@Autowired
 	private DataToSend dataToSend;
 	
-//	@Autowired
-//	private List<Metric> selectedmetrics;
-	
-//	@Autowired
-//	private CountryDAO countryDAO;
 	
 	private final String[] AVAILABLE_ECONOMIC_METRICS = {
 		    "domestic_credits",
@@ -151,7 +146,18 @@ public class StatisticController implements Initializable {
 			stat.getItems().addAll(metrics);
 			country.getItems().addAll(countriesList);
 			year1.getItems().addAll(years);
-			year2.getItems().addAll(years);
+			
+			year2.setDisable(true);
+			year1.valueProperty().addListener((observable, oldValue, newValue) -> {
+				year2.getItems().removeAll(years);
+				year2.getItems().addAll(years);
+			    if (newValue != null) {
+			        while (year2.getItems().get(0) != newValue) {
+						year2.getItems().remove(0);
+					}
+			        year2.setDisable(false);
+			    }
+			});
 		});
 		
 		
@@ -164,14 +170,9 @@ public class StatisticController implements Initializable {
 		List<Integer> years = new ArrayList<Integer>(); 
 
 		
-//		for (String metric : stat.getCheckModel().getCheckedItems()) {
-//			selectedMetrics.add(metric);
-//		}
-		
 		for (String metric : country.getCheckModel().getCheckedItems()) {
 			selectedCountries.add(metric);
 		}
-		System.err.println(year2.getValue());
 		years.add(year1.getValue());
 		years.add(year2.getValue());
 		

@@ -21,6 +21,8 @@ import javafx.scene.chart.BarChart;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.PieChart;
 import javafx.scene.chart.ScatterChart;
@@ -38,9 +40,7 @@ public class PlotController implements Initializable{
 
 	@FXML
 	private ScatterChart<Number, Number> scatterChart;
-	
-//	@FXML
-//	private VBox vbox;
+
 	
 	private DataToSend dataToSend;
 	
@@ -64,6 +64,7 @@ public class PlotController implements Initializable{
 			for (int i = dataToSend.getYears().get(0); i <= dataToSend.getYears().get(1);i++) {
 				years.add(i);
 			}
+			
 			List<List<Integer>> yearList = new ArrayList<>();
 			yearList.add(years);
 			
@@ -74,17 +75,22 @@ public class PlotController implements Initializable{
 				MetricsDAO metricsDAO = (MetricsDAO) applicationContext.getBean(metric.getTypeOfMetric());
 				
 				if (metric.getTypeOfMetric().equals("Economic") && yearList.size() < 2) {
+					List<Integer> economicYears = new ArrayList<>();
 					int start = years.get(0);
 					int end = years.get(yearRange-1);
 					if (start >= 1990 && start <= 2018 && end >= 1990 && end <= 2018) {
 						
-					}
-					else {
-						List<Integer> economicYears = new ArrayList<>();
+					} else {
+						if ((start > 2018 && end > 2018) || (start < 1990 && end < 1990)) {
+							back();
+							new Alert(AlertType.ERROR, "There are no values for selected years").show();
+						}
+						
+						
 						if (start < 1990) {
 							start = 1990;
 						}
-						if (start < 2018) {
+						if (start > 2018) {
 							start = 2018;
 						}
 						if (end > 2018) {
@@ -92,18 +98,18 @@ public class PlotController implements Initializable{
 						}
 						if (end < 1990) {
 							end = 1990;
-						}
-						
-						for (int i = start; i <= end;i++) {
-							economicYears.add(i);
-						}
-						yearList.add(economicYears);						
+						}							
+												
 					}
+
+					for (int i = start; i <= end;i++) {
+						economicYears.add(i);
+					}
+					yearList.add(economicYears);
 					
 					
 				}
 				valuesOfMetric = metricsDAO.findMetricByCountryBetween(metric.getNameOfMetric(), countries, years.get(0), years.get(yearRange-1));
-				
 				metrics.add(valuesOfMetric);
 				
 			}
@@ -125,9 +131,9 @@ public class PlotController implements Initializable{
 				}
 		        
 		        if (dataToSend.getSelectedMetrics().get(index++).getTypeOfMetric().equals("Economic")) {
-		        	chartYears = yearList.get(0);
+		        	chartYears = yearList.get(1);
 		        } else {
-					chartYears = yearList.get(1);
+					chartYears = yearList.get(0);
 				}
 		        
 		        
@@ -143,24 +149,27 @@ public class PlotController implements Initializable{
 		        	lineChart.getData().add(series);
 		        	barChart.getData().add(series);
 		        }
-		        
-		        
-		        
-//		        index++;
-		        
 			}
 			
-		       if(metrics.size() == 2) {
-	        		XYChart.Series<Number, Number> series = new XYChart.Series<>();
-		        	for(int i = 0; i < metrics.get(0).size(); i++) {
-		        		series.getData().add(new XYChart.Data<>(metrics.get(0).get(i), metrics.get(1).get(i)));
-		
-		        	}
-		        	
-		        	scatterChart.getData().add(series);
-		        	
-		        }
-				
+	       if(metrics.size() == 2) {
+        		XYChart.Series<Number, Number> series = new XYChart.Series<>();
+	        	for(int i = 0; i < metrics.get(0).size(); i++) {
+	        		series.getData().add(new XYChart.Data<>(metrics.get(0).get(i), metrics.get(1).get(i)));
+	        	} 
+	        	
+	        	scatterChart.getData().add(series);
+	        	scatterChart.getXAxis().setLabel(dataToSend.getSelectedMetrics().get(0).getNameOfMetric());
+	        	scatterChart.getYAxis().setLabel(dataToSend.getSelectedMetrics().get(1).getNameOfMetric());
+	        } else {
+				lineChart.setPrefWidth(barChart.getPrefWidth());
+				lineChart.setLayoutX(barChart.getLayoutX());
+				scatterChart.setVisible(false);
+			}
+	       barChart.getXAxis().setLabel("Year");
+	       barChart.getYAxis().setLabel("Value");
+	       lineChart.getXAxis().setLabel("Year");
+	       lineChart.getYAxis().setLabel("Value");
+			
 		});
 		
 		

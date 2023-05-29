@@ -9,7 +9,7 @@ stat_columns = list(set(dataset_hashmap.keys()) - set(fixed_columns))
 
 ignore_items =  [None]
 
-matsi_matsi = {
+match_right_country_names = {
     'Korea North': "North Korea",
     'Korea South': "South Korea",
     "CÃ´te d'Ivoire": "Ivory Coast",
@@ -42,7 +42,7 @@ for column in dataset_hashmap:
 
 # matsi ds
 for idx, country in enumerate(dataset_hashmap['country_name']):
-    if country in matsi_matsi: dataset_hashmap['country_name'][idx] = matsi_matsi[country]
+    if country in match_right_country_names: dataset_hashmap['country_name'][idx] = match_right_country_names[country]
 
 csvs_hashmap = dict()
 

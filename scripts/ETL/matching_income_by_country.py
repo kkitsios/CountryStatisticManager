@@ -26,16 +26,16 @@ def print_set_values(my_set):
         if value not in my_list:print(value)
 
 
-the_other_matsi = []
+the_other_match = []
 
 try:
-    the_other_matsi = parser.load_csv(countries_file)["Display_Name"]
+    the_other_match = parser.load_csv(countries_file)["Display_Name"]
     
 except UnicodeDecodeError:
     pass  # ignore the error and continue with the code
 
 for shit in parser.get_xlsx_sheets(income_by_country):
     print(shit+"\n\n")
-    the_matsi = parser.load_xlsx_sheet(income_by_country, shit)["Country"]
-    print(shit, print_set_values(set_difference.matsi_matsi(set(the_matsi), set(the_other_matsi))))
+    the_match = parser.load_xlsx_sheet(income_by_country, shit)["Country"]
+    print(shit, print_set_values(set_difference.difference(set(the_match), set(the_other_match))))
     print(25*"-*-")

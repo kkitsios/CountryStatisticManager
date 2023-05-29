@@ -9,7 +9,7 @@ dataset_hashmap = parser.load_csv(dataset)
 
 ignore_items =  [None]
 
-matsi_matsi = {
+match_right_name_countries = {
     'Korea North': "North Korea",
     'Korea South': "South Korea",
     "CÃ´te d'Ivoire": "Ivory Coast",
@@ -42,7 +42,7 @@ for column in dataset_hashmap:
 
 # matsi ds
 for idx, country in enumerate(dataset_hashmap['country_name']):
-    if country in matsi_matsi: dataset_hashmap['country_name'][idx] = matsi_matsi[country]
+    if country in match_right_name_countries: dataset_hashmap['country_name'][idx] = match_right_name_countries[country]
 
 with open(out_dir+"country_names_area.csv", 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter='\t')

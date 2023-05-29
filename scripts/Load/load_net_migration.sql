@@ -1,5 +1,5 @@
 
-USE matso_data;
+USE world_data;
 CREATE TABLE net_migration AS 
 SELECT countries.ISO_Code, aux_net_migration.*
 FROM aux_net_migration

@@ -1,5 +1,5 @@
 
-USE matso_data;
+USE world_data;
 CREATE TABLE rate_natural_increase AS 
 SELECT countries.ISO_Code, aux_rate_natural_increase.*
 FROM aux_rate_natural_increase

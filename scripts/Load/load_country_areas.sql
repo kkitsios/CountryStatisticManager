@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE countries_area AS 
 SELECT countries.ISO_Code, aux_countries_area.country_name, aux_countries_area.country_code,
         aux_countries_area.country_area

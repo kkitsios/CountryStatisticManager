@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE gross_reproduction_rate AS 
 SELECT countries.ISO_Code, aux_gross_reproduction_rate.*
 FROM aux_gross_reproduction_rate

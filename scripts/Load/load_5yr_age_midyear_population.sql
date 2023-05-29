@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE 5yr_age_midyear_population_male_female AS 
 SELECT countries.ISO_Code, aux_5yr_age_midyear_population.*
 FROM aux_5yr_age_midyear_population

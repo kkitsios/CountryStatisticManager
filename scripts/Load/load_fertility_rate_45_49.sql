@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE fertility_rate_45_49 AS 
 SELECT countries.ISO_Code, aux_fertility_rate_45_49.*
 FROM aux_fertility_rate_45_49

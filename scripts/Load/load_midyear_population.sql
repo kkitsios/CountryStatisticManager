@@ -1,5 +1,5 @@
 
-USE matso_data;
+USE world_data;
 CREATE TABLE midyear_population AS 
 SELECT countries.ISO_Code, aux_midyear_population.*
 FROM aux_midyear_population

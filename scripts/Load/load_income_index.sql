@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE income_index AS 
 SELECT countries.ISO_Code, aux_income_index.*
 FROM aux_income_index

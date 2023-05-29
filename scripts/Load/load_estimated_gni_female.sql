@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE estimated_gni_female AS 
 SELECT countries.ISO_Code, aux_estimated_gni_female.*
 FROM aux_estimated_gni_female

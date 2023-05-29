@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE gdp_per_capita AS 
 SELECT countries.ISO_Code, aux_gdp_per_capita.*
 FROM aux_gdp_per_capita

@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE domestic_credits AS 
 SELECT countries.ISO_Code, aux_domestic_credits.*
 FROM aux_domestic_credits

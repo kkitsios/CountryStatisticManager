@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE labour_share_of_gdp AS 
 SELECT countries.ISO_Code, aux_labour_share_of_gdp.*
 FROM aux_labour_share_of_gdp

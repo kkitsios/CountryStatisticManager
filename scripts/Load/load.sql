@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 source load_crude_birth_rate.sql;
 source load_crude_death_rate.sql;
 source load_fertility_rate_15_19.sql;

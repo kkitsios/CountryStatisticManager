@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE infant_mortality AS 
 SELECT countries.ISO_Code, aux_infant_mortality.*
 FROM aux_infant_mortality

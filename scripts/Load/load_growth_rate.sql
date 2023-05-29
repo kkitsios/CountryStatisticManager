@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE growth_rate AS 
 SELECT countries.ISO_Code, aux_growth_rate.*
 FROM aux_growth_rate

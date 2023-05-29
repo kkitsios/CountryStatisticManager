@@ -1,5 +1,5 @@
 
-USE matso_data;
+USE world_data;
 CREATE TABLE mortality_rate_under5_male AS 
 SELECT countries.ISO_Code, aux_mortality_rate_under5_male.*
 FROM aux_mortality_rate_under5_male

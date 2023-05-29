@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE gni_per_capita AS 
 SELECT countries.ISO_Code, aux_gni_per_capita.*
 FROM aux_gni_per_capita

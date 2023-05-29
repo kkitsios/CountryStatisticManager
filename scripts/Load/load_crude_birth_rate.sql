@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE crude_birth_rate AS 
 SELECT countries.ISO_Code, aux_crude_birth_rate.*
 FROM aux_crude_birth_rate

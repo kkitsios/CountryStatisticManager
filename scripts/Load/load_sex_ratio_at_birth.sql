@@ -1,5 +1,5 @@
 
-USE matso_data;
+USE world_data;
 CREATE TABLE sex_ratio_at_birth AS 
 SELECT countries.ISO_Code, aux_sex_ratio_at_birth.*
 FROM aux_sex_ratio_at_birth

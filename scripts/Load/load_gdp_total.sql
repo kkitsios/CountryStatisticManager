@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE gdp_total AS 
 SELECT countries.ISO_Code, aux_gdp_total.*
 FROM aux_gdp_total

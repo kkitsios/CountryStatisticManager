@@ -1,5 +1,5 @@
 import parser
-import matsimatsi
+import set_difference
 
 countries_file = "../../countries.csv"
 international_datasets = ["age_specific_fertility_rates.csv","birth_death_growth_rates.csv","country_names_area.csv","midyear_population.csv","midyear_population_5yr_age_sex.csv","midyear_population_age_sex.csv","mortality_life_expectancy.csv"]
@@ -26,6 +26,6 @@ except UnicodeDecodeError:
 for csvs in international_datasets:
     print(csvs+"\n\n")
     the_matsi = parser.load_csv(dir_international_datasets+csvs)["country_name"]
-    print(print_set_values(matsimatsi.matsi_matsi(set(the_matsi), set(the_other_matsi))))
+    print(print_set_values(set_difference.matsi_matsi(set(the_matsi), set(the_other_matsi))))
     print(25*"-*-")
     break

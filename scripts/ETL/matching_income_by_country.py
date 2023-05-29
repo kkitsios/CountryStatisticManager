@@ -1,5 +1,5 @@
 import parser
-import matsimatsi
+import set_difference
 
 countries_file = "../../countries.csv"
 income_by_country = "../../Income by Country.xlsx"
@@ -37,5 +37,5 @@ except UnicodeDecodeError:
 for shit in parser.get_xlsx_sheets(income_by_country):
     print(shit+"\n\n")
     the_matsi = parser.load_xlsx_sheet(income_by_country, shit)["Country"]
-    print(shit, print_set_values(matsimatsi.matsi_matsi(set(the_matsi), set(the_other_matsi))))
+    print(shit, print_set_values(set_difference.matsi_matsi(set(the_matsi), set(the_other_matsi))))
     print(25*"-*-")

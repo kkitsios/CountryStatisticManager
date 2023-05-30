@@ -184,10 +184,11 @@ public class StatisticController implements Initializable {
 			for (int i = 0; i<=100;i++) {
 			AVAILABLE_POPULATION_METRICS[i] = "populationAge"+i;
 			}
-			metrics.add("countryArea");
-			metrics.addAll(AVAILABLE_ECONOMIC_METRICS);
-			metrics.addAll(AVAILABLE_DEMOGRAPHIC_METRICS);
-			metrics.addAll(AVAILABLE_MIDYEAR_POPULATION_METRICS);
+//			metrics.add("countryArea");
+//			metrics.addAll(AVAILABLE_ECONOMIC_METRICS);
+//			metrics.addAll(AVAILABLE_DEMOGRAPHIC_METRICS);
+//			metrics.addAll(AVAILABLE_MIDYEAR_POPULATION_METRICS);
+			metrics.addAll(availableMetrics.keySet());
 			metrics.addAll(AVAILABLE_POPULATION_METRICS);
 			for (Country country : countryDAO.findAll()) {
 				countriesList.add(country.getDisplayName());
@@ -226,15 +227,17 @@ public class StatisticController implements Initializable {
 		years.add(year1.getValue());
 		years.add(year2.getValue());
 		
-		for (String metric : stat.getCheckModel().getCheckedItems()) {
+		for (String metricString : stat.getCheckModel().getCheckedItems()) {
 			
 			Metric selectedmetric = new Metric();
-			
+			String metric = metricString;
+			if (availableMetrics.containsKey(metricString)) {
+				metric = availableMetrics.get(metricString);
+			}
 			
 			selectedmetric.setNameOfMetric(metric);
 			selectedmetric.setTypeOfMetric(getTypeOfMetric(metric));
 			
-//			System.err.println(selectedMetric.getTypeOfMetric() + " "+ metric+"1");
 			selectedMetrics.add(selectedmetric);
 			
 		}
@@ -257,7 +260,6 @@ public class StatisticController implements Initializable {
 	      scene = new Scene(fxmlLoader.load());
 	      stage.setScene(scene);
 	      stage.setUserData(dataToSend);
-//	      System.err.println(dataToSend.getSelectedCountries().get(0));
 
 	      stage.setResizable(false);
 	      stage.show();

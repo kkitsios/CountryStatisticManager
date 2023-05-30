@@ -7,8 +7,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-  <groupId>matso_data</groupId>
-  <artifactId>matso_data</artifactId>
+  <groupId>CountryStatisticsManager</groupId>
+  <artifactId>CountryStatisticsManager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>

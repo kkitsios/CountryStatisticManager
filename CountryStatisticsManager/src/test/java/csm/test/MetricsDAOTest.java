@@ -1,4 +1,4 @@
-package matso_data.test;
+package csm.test;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.*;

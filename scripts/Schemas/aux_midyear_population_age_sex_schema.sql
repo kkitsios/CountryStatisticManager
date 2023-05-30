@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 CREATE TABLE aux_midyear_population_age_sex (
     country_code VARCHAR(3) NOT NULL,
     country_name VARCHAR(50),

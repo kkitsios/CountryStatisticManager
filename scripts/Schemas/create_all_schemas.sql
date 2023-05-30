@@ -1,4 +1,4 @@
-USE matso_data;
+USE world_data;
 SOURCE aux_5yr_age_midyear_population_female_schema.sql;
 SOURCE aux_5yr_age_midyear_population_male_schema.sql;
 SOURCE aux_5yr_age_midyear_population_schema.sql;

@@ -1,4 +1,4 @@
-use matso_data;
+use world_data;
 CREATE TABLE countries (
   ISO_Code INT PRIMARY KEY,
   ISO VARCHAR(3),

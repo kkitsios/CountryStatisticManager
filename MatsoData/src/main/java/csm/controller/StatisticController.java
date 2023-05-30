@@ -2,9 +2,7 @@ package csm.controller;
 
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.HashMap;
 import java.util.ResourceBundle;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +10,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 
 import csm.dao.CountryDAO;
-import csm.dao.MetricsDAO;
 import csm.entity.Country;
 import csm.entity.DataToSend;
 import csm.entity.Metric;

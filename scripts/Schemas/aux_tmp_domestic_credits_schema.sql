@@ -1,4 +1,4 @@
-use matso_data;
+use world_data;
 CREATE TABLE aux_tmp_domestic_credits (
   country_name VARCHAR(50),
   year_1990 FLOAT,

@@ -4,6 +4,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.Map;
+import static java.util.Map.entry;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -48,6 +50,57 @@ public class StatisticController implements Initializable {
 	
 	@Autowired
 	private DataToSend dataToSend;
+	
+	
+	
+	private Map<String, String> availableMetrics = Map.ofEntries(
+		    entry("Domestic Credits", "domestic_credits"),
+		    entry("Estimated GNI Female", "estimated_gni_female"),
+		    entry("Estimated GNI Male", "estimated_gni_male"),
+		    entry("GDP per Capita", "gdp_per_capita"),
+		    entry("GDP Total", "gdp_total"),
+		    entry("GNI per Capita", "gni_per_capita"),
+		    entry("Gross Fixed Capital Formation", "gross_fixed_capital_formation"),
+		    entry("Income Index", "income_index"),
+		    entry("Labour Share of GDP", "labour_share_of_gdp"),
+		    entry("Fertility Rate 15-19", "fertilityRate_15_19"),
+		    entry("Fertility Rate 20-24", "fertilityRate_20_24"),
+		    entry("Fertility Rate 25-29", "fertilityRate_25_29"),
+		    entry("Fertility Rate 30-34", "fertilityRate_30_34"),
+		    entry("Fertility Rate 35-39", "fertilityRate_35_39"),
+		    entry("Fertility Rate 40-44", "fertilityRate_40_44"),
+		    entry("Fertility Rate 45-49", "fertilityRate_45_49"),
+		    entry("Crude Birth Rate", "crudeBirthRate"),
+		    entry("Crude Death Rate", "crudeDeathRate"),
+		    entry("Gross Reproduction Rate", "grossReproductionRate"),
+		    entry("Growth Rate", "growthRate"),
+		    entry("Infant Mortality", "infantMortality"),
+		    entry("Infant Mortality Female", "infantMortalityRemale"),
+		    entry("Infant Mortality Male", "infantMortalityMale"),
+		    entry("Life Expectancy", "lifeExpectancy"),
+		    entry("Life Expectancy Male", "lifeExpectancyMale"),
+		    entry("Life Expectancy Female", "lifeExpectancyFemale"),
+		    entry("Midyear Population", "midyearPopulation"),
+		    entry("Mortality Rate OneToFour", "mortalityRateOneToFour"),
+		    entry("Mortality Rate OneToFourFemale", "mortalityRateOneToFourFemale"),
+		    entry("Mortality Rate OneToFourMale", "mortalityRateOneToFourMale"),
+		    entry("Mortality Rate UnderFive", "mortalityRateUnderFive"),
+		    entry("Mortality Rate UnderFiveMale", "mortalityRateUnderFivemale"),
+		    entry("Mortality Rate UnderFiveFemale", "mortalityRateUnderFivefemale"),
+		    entry("Net Migration", "netMigration"),
+		    entry("Sex Ratio at Birth", "sexRatioAtBirth"),
+		    entry("Total Fertility Rate", "totalFertilityRate"),
+		    entry("Rate Natural Increase", "rateNaturalIncrease"),
+		    entry("Age Midyear Population Female", "ageMidyearPopulationFemale"),
+		    entry("Age Midyear Population Male", "ageMidyearPopulationMale"),
+		    entry("Age Midyear Population", "ageMidyearPopulation"),
+		    entry("Country Area", "countryArea")
+		);
+
+	
+	
+	
+	
 	
 	
 	private final String[] AVAILABLE_ECONOMIC_METRICS = {

@@ -22,7 +22,6 @@ public class EconomicDAOImpl implements MetricsDAO {
 		DecimalFormat decimalFormat = new DecimalFormat("#.###");
 		String PREFIX = "year_";
 		StringJoiner columnNames = new StringJoiner(", ");
-//		StringJoiner columns = new StringJoiner(", ");
 		List<String> columns = new ArrayList<>(); 
 		if (startYear < 1990)
 			startYear = 1990;
@@ -36,15 +35,12 @@ public class EconomicDAOImpl implements MetricsDAO {
 		if (endYear > 2018)
 			endYear = 2018;
 		
-//		System.err.println(endYear);
 		for (int i = startYear; i <= endYear; i++) {
-//			System.err.println(i);
 			columns.add(PREFIX+i);
 		}
 		
 		
 		columns.forEach(columnNames::add);
-//		System.err.println(columnNames);
 		
 		String jpql = "SELECT " + columnNames + " FROM " + stat + " WHERE country_name IN :countries";
 		

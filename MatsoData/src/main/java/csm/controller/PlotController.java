@@ -24,9 +24,7 @@ import javafx.scene.chart.XYChart;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.chart.LineChart;
-import javafx.scene.chart.PieChart;
 import javafx.scene.chart.ScatterChart;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 @Controller
@@ -40,9 +38,6 @@ public class PlotController implements Initializable{
 
 	@FXML
 	private ScatterChart<Number, Number> scatterChart;
-
-	
-	private DataToSend dataToSend;
 	
 	@Autowired
 	private ApplicationContext applicationContext;
@@ -50,13 +45,12 @@ public class PlotController implements Initializable{
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		Platform.runLater(() -> {
-			//List<MetricsDAO> metricsDAOs = new ArrayList<MetricsDAO>();
 			List<List<Double>> metrics = new ArrayList<>();
 			List<Double> valuesOfMetric = new ArrayList<>();
 			List<Integer> years = new ArrayList<>();
 			List<String> countries = new ArrayList<>(); 
 			
-			dataToSend = (DataToSend) barChart.getScene().getWindow().getUserData();
+			DataToSend dataToSend = (DataToSend) barChart.getScene().getWindow().getUserData();
 			
 
 			int yearRange = dataToSend.getYears().get(1) - dataToSend.getYears().get(0) + 1;
@@ -85,8 +79,6 @@ public class PlotController implements Initializable{
 							back();
 							new Alert(AlertType.ERROR, "There are no values for selected years").show();
 						}
-						
-						
 						if (start < 1990) {
 							start = 1990;
 						}
@@ -117,8 +109,6 @@ public class PlotController implements Initializable{
 			int index = 0;
 			for (List<Double> values: metrics) {
 				List<Integer> chartYears;
-		        CategoryAxis xAxis = new CategoryAxis();
-		        NumberAxis yAxis = new NumberAxis();
 		        List<XYChart.Series<String, Number>> seriesList = new ArrayList<>();
 		        
 		        List<List<Double>> countryValues = new ArrayList<>() ;
@@ -136,19 +126,23 @@ public class PlotController implements Initializable{
 					chartYears = yearList.get(0);
 				}
 		        
-		        
-		        for (List<Double> someCountryValues : countryValues) {
-		        	XYChart.Series<String, Number> series = new XYChart.Series<>();
-		        	for (int i = 0; i < someCountryValues.size();i++) {
-			        	series.getData().add(new XYChart.Data<>(chartYears.get(i)+"", someCountryValues.get(i)));
-			        }		   
-		        	seriesList.add(series);
-		        }
-
-		        for (XYChart.Series<String, Number> series : seriesList) {
-		        	lineChart.getData().add(series);
-		        	barChart.getData().add(series);
-		        }
+		        try {
+			        for (List<Double> someCountryValues : countryValues) {
+			        	XYChart.Series<String, Number> series = new XYChart.Series<>();
+			        	for (int i = 0; i < someCountryValues.size();i++) {
+				        	series.getData().add(new XYChart.Data<>(chartYears.get(i)+"", someCountryValues.get(i)));
+				        }		   
+			        	seriesList.add(series);
+			        }
+	
+			        for (XYChart.Series<String, Number> series : seriesList) {
+			        	lineChart.getData().add(series);
+			        	barChart.getData().add(series);
+			        }
+		        } catch (ArrayIndexOutOfBoundsException e) {
+		        	back();
+					new Alert(AlertType.ERROR, "There are no values for selected years").show();
+				}
 			}
 			
 	       if(metrics.size() == 2) {
@@ -187,7 +181,6 @@ public class PlotController implements Initializable{
 	      Stage stage = new Stage();
 	      scene = new Scene(fxmlLoader.load());
 	      stage.setScene(scene);
-//	      stage.setUserData(trn);
 
 	      stage.setResizable(false);
 	      stage.show();

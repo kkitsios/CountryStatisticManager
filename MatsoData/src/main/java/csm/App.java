@@ -1,13 +1,9 @@
 package csm;
 
-
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import csm.dao.MetricsDAO;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,7 +12,6 @@ import javafx.stage.Stage;
 
 
 @SpringBootApplication
-//@EnableJpaRepositories(repositoryBaseClass = InternationalDataDao.class)
 public class App extends Application {
 	private ConfigurableApplicationContext springContext;
     private Parent rootNode;

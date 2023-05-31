@@ -7,4 +7,5 @@
 - Scripts/Load: SQL scripts for loading data into the db.
 - Scrits/ETL/output: the final data after ETL proccess, ready for loading.
 - Diagrams : UML and EER diagrams.
+- ETL/db.sql: Backup of the database.
 

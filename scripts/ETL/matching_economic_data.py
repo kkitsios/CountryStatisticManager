@@ -1,5 +1,4 @@
 import parser
-import set_difference
 import interpolation
 
 countries_file = "../../countries.csv"
